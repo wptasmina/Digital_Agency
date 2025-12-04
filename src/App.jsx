@@ -1,6 +1,7 @@
 import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import Cart from './components/footer';
+import Contact from './components/contact.jsx';
 import Footer from './components/footer.jsx';
 
 
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
       <div>
-       <Footer />
+        <Contact />
+        <Footer />
       </div>
       
 

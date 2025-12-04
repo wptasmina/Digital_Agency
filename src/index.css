@@ -11,7 +11,16 @@
 
 .subscribe-input {
     @apply bg-[#C4EE18] text-[#19324D] px-4 py-2 my-1 mr-1 font-semibold rounded-tl-[8px] rounded-tr-[2px] rounded-br-[2px] rounded-bl-[2px];
+} 
+
+/*contact section label */
+.contact-input {
+    @apply w-full mt-2 px-4 py-3 border border-gray-300 rounded-md outline-none focus:border-lime-400;
+  }
+.contact-label{
+    @apply text-gray-700 text-sm font-medium
 }
+
 }
 
 

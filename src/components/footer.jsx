@@ -1,10 +1,4 @@
 
-
-// export default function Footer() {
-//   return (
-    // <footer className="bg-[#002224] text-white py-4 mt-8">
-    //     <div>
-
 import '../index.css';
 import { CiFacebook, CiLinkedin } from "react-icons/ci";
 import { FaXTwitter, FaWhatsapp, FaInstagram, FaPhone, FaLocationDot } from "react-icons/fa6";
@@ -67,8 +61,7 @@ export default function Footer() {
 
         {/* Brand + Subscribe */}
         <div>
-          {/* <h1 className="text-3xl font-bold text-[#C4EE18] mb-3">ATRI.</h1> */}
-          <img src={Logo} alt="Footer logo" className="w-[165] h-[48]"/>
+          <img src={Logo} alt="Footer logo" className="w-[165] h-[48] mb-3"/>
           <p className="text-gray-400 mb-6">
             Our team is always ready to listen, collaborate, and create 
             strategies that move your business forward.
@@ -87,7 +80,7 @@ export default function Footer() {
           </div>
 
           {/* Social Icons */}
-          <div className="flex gap-4 text-xl mt-5">
+          <div className="flex gap-4 text-xl mt-5 cursor-pointer">
             <CiFacebook />
             <FaInstagram />
             <FaXTwitter />
