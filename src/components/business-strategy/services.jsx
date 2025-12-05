@@ -5,7 +5,7 @@ import ServiceIntro from "./ServiceIntro";
 export default function Services() {
   return (
     <>
-    <section className="bg-[#fafafa] py-20 px-6 md:px-20 border">
+    <section className="bg-[#fafafa] py-20 px-6 md:px-20">
 
       {/* TOP HEADING */}
           <div className="flex justify-between border max-w-6xl mx-auto py-8">
@@ -19,7 +19,7 @@ export default function Services() {
 
        {/* MAIN CONTENT GRID */}
     <ServiceIntro />
-    
+
     </>
   );
 }

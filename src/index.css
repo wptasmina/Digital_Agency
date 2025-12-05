@@ -29,6 +29,8 @@
   --lime-color: #C4EE18;
   background: #fafafa;
   color: #19324d;
+  box-sizing: border-box;
+border-bottom: undefinedpx dashed #e3e3e3;
 }
 
 

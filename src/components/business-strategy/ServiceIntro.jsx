@@ -41,21 +41,26 @@ export default function ServiceIntro() {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-10">
+    <section className="max-w-6xl mx-auto pr-8 py- grid grid-cols-1 md:grid-cols-2 gap-10 border border-dashed border-[#e3e3e3]">
+
+       {/* LEFT SIDE LIST */}
+     <div className="bg-[#fafafa] border border-transparent border-r-[#e3e3e3] border-dashed ">
       {/* LEFT SIDE */}
-      <div className="space-y-8">
+       <div className="">
         {services.map((item, idx) => (
           <div
             key={idx}
-            className={`border-b pb-6 flex items-start gap-4 transition cursor-pointer group`}
+            className={`bg-[#fafafa] py-10 pr-8 flex items-start gap-4 transition cursor-pointer group border border-transparent border-b-[#e3e3e3] border-dashed last:border-none`}
           >
-              {/* IMAGE */}
-         <img 
+              {/* IMAGE  Icon */}
+        <div className=" pl-6">
+           <img 
           src={item.icon} 
           className="w-10 h-10 object-contain" 
           alt={item.title}
         />
-
+        </div>
+              {/* Title + Desc */}
             <div className="flex-1">
               <h3 className={`text-3xl font-semibold ${
                       item.active ? "text-[#C4EE18]" : "text-[#19324D]"
@@ -86,13 +91,14 @@ export default function ServiceIntro() {
         </div>
         ))}
       </div>
+     </div>
 
       {/* RIGHT SIDE */}
-      <div>
+      <div className="bg-[#fafafa] p-4 flex flex-col md:mt-10">
         <img
           src={serviceIntorImage}
           alt="Business Strategy"
-          className="w-full h-[645px] object-cover rounded-xl shadow"
+          className="w-full h-[550px] object-cover"
         />
 
         <p className="text-gray-600 mt-4 text-sm leading-relaxed">
