@@ -1,3 +1,4 @@
+import Button from "../Button";
 
 
 export default function Top_Heading() {
@@ -14,17 +15,22 @@ export default function Top_Heading() {
               {/* Heading */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold leading-snug">
-             <span className="text-[#C4EE18] font-medium">Empowering Businesses</span>
+                <span className="text-[#C4EE18] font-medium">Empowering Businesses</span>
                 <br />
                 <span className="text-[#19324D] font-bold">
                 <span className="text-[#C4EE18] font-medium">Through </span>Insight and Innovation</span>
             </h2>
          
-                      {/* Sub text */}
+              {/* Sub text */}
             <p className="mt-6 text-gray-600 text-lg max-w-2xl leading-relaxed">
-                We blend innovation with practical strategy to create meaningful solutions that adapt to your needs, and unlock new opportunities for success.
+              We blend innovation with practical strategy to create meaningful solutions that adapt to your needs, and unlock new opportunities for success.
             </p>
         </div>
+
+        {/* Button  */}
+         <div className="flex justify-between items-end">  
+            <Button title="Read More" />
+          </div>
 
     </>
   )
