@@ -5,6 +5,8 @@ import Servicse2 from "../../assets/icons/our-service/service4.png"
 import Servicse3 from "../../assets/icons/our-service/service9.png"
 import Servicse4 from "../../assets/icons/our-service/service7.png"
 import Servicse5 from "../../assets/icons/our-service/service8.png"
+import leftArrow from "../../assets/icons/our-service/left-arrow.png";
+import upArrow from "../../assets/icons/our-service/up-arrow.png";
 
 
 export default function ServiceIntro() {
@@ -13,6 +15,7 @@ export default function ServiceIntro() {
       title: "Human Resource",
       desc: "Build stronger teams through smart recruitment, talent development, and retention strategies.",
       icon: Servicse1,
+      active: false,
     },
     {
       title: "Business Strategy",
@@ -46,31 +49,41 @@ export default function ServiceIntro() {
             key={idx}
             className={`border-b pb-6 flex items-start gap-4 transition cursor-pointer group`}
           >
-            {/* <div className="text-3xl">{item.icon}</div>
-             */}
               {/* IMAGE */}
-    <img 
-      src={item.icon} 
-      className="w-10 h-10 object-contain" 
-      alt={item.title}
-    />
-
+         <img 
+          src={item.icon} 
+          className="w-10 h-10 object-contain" 
+          alt={item.title}
+        />
 
             <div className="flex-1">
-              <h3
-                className={`text-xl font-semibold ${
-                  item.active ? "text-lime-500" : "text-gray-800"
-                } group-hover:text-lime-500`}
-              >
-                {item.title}
+              <h3 className={`text-3xl font-semibold ${
+                      item.active ? "text-[#C4EE18]" : "text-[#19324D]"
+                    } group-hover:text-[#C4EE18]`} >
+                    {item.title}
               </h3>
               <p className="text-gray-500 text-sm mt-1">{item.desc}</p>
             </div>
 
-            <span className="text-xl text-gray-400 group-hover:text-lime-500">
-              →
-            </span>
-          </div>
+        <span className="text-xl relative group">
+         {/* Default Image */}
+          <img
+            src={item.active ? leftArrow : upArrow} 
+            className="w-6 h-6 transition-opacity duration-200 
+                      opacity-100 group-hover:opacity-0"
+            alt="Default Arrow"
+              />
+
+        {/* Hover Image */}
+          <img
+            src={leftArrow}
+            className="w-6 h-6 transition-opacity duration-200 
+                      absolute top-0 left-0 opacity-0 group-hover:opacity-100"
+            alt="Hover Arrow"
+          />
+        </span>
+
+        </div>
         ))}
       </div>
 

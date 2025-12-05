@@ -15,11 +15,11 @@ export default function Services() {
                 <Button title="Read More" />
               </div>
           </div>
-
+    </section>
 
        {/* MAIN CONTENT GRID */}
-    </section>
     <ServiceIntro />
+    
     </>
   );
 }
