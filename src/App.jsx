@@ -3,6 +3,8 @@ import { useState } from 'react'
 // import Cart from './components/footer';
 import Contact from './components/contact.jsx';
 import Footer from './components/footer.jsx';
+import Services from './components/business-strategy/services.jsx';
+
 
 
 
@@ -12,6 +14,7 @@ function App() {
   return (
     <>
       <div>
+        <Services />
         <Contact />
         <Footer />
       </div>
