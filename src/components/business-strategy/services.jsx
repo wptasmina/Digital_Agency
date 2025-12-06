@@ -4,7 +4,7 @@ import Latest_Work from "./latest_work";
 import NewsSection from "./news_Section";
 import Our_Expertise from './Expertise-Section/Our_Expertise';
 import Button from "../Button";
-import Feature from "./Why-ChooseUs/feature";
+import FeatureSection from "./Why-ChooseUs/feature";
 
 
 export default function Services() {
@@ -27,7 +27,7 @@ export default function Services() {
       <Latest_Work />
       <NewsSection />
       <Our_Expertise />
-      <Feature />
+      <FeatureSection />
     
     </>
   );

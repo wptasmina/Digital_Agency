@@ -51,7 +51,7 @@ export default function ServiceIntro() {
         {services.map((item, idx) => (
           <div
             key={idx}
-            className={`bg-[#fafafa] py-10 pr-8 flex items-start gap-4 transition cursor-pointer group border border-transparent border-b-[#e3e3e3] border-dashed last:border-none`}
+            className={`bg-[#fafafa] py-10 pr-8 flex items-start gap-4 transition cursor-pointer group border border-transparent border-b-[#e3e3e3] border-dashed last:border-none `}
           >
               {/* IMAGE  Icon */}
         <div className=" pl-6">
