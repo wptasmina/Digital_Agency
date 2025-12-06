@@ -1,17 +1,19 @@
 import backgroundImg from '../../assets/business-strategy/news-bg.png'
 import videoIcon from '../../assets/icons/video-icon.png'
+import Marquees from './Marquee/marquees'
+
 
 
 export default function NewsSection() {
   return (
- <section className="bg-[#fefff9] py-16">
-  <div className="max-w-6xl mx-auto relative">
+ <section className="bg-[#fefff9] py-16 overflow-hidden">
+  <div className="relative">
 
     {/* Background Image */}
     <img 
       src={backgroundImg}
       alt="background image"
-      className="w-full h-auto object-cover rounded-xl"
+      className="w-full h-auto object-cover"
     />
 
     {/* Overlay Layer */}
@@ -24,9 +26,10 @@ export default function NewsSection() {
       <img src={videoIcon} alt="video icon" className="w-10 h-10" />
     </div>
 
-    {/* Slide Text */}
-    <div className="absolute bottom-4 left-6 text-white z-10">
-      <h1 className="text-xl font-semibold">jkllajdsfdkdf</h1>
+
+    {/* Business Strategy News Slide Text */}
+    <div className="absolute bottom-2 text-white z-10">
+      <Marquees />  {/* Business Strategy News Slide */}
     </div>
 
   </div>
