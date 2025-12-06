@@ -9,6 +9,9 @@ export default function Our_Expertise() {
         <div className="flex justify-between max-w-6xl mx-auto py-8">
           <Top_Heading />
         </div>
+
+    
+
         <Counter />
     </section>
   )
