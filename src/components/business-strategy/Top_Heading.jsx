@@ -1,4 +1,4 @@
-import Button from "../Button";
+
 
 
 export default function Top_Heading() {
@@ -7,18 +7,18 @@ export default function Top_Heading() {
              {/* Label */}
        <div>
           <div className="flex items-center gap-2 pt-4">
-             <span className="w-3 h-3 bg-[#C4EE18] rounded-full"></span>
-             <span className="text-sm font-medium text-gray-600">OUR SERVICES</span>
+            <span className="w-3 h-3 bg-[#C4EE18] rounded-full"></span>
+            <span className="text-sm font-medium text-gray-600">OUR SERVICES</span>
           </div>
        </div>
 
               {/* Heading */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold leading-snug">
-                <span className="text-[#C4EE18] font-medium">Empowering Businesses</span>
+              <span className="text-[#C4EE18] font-medium">Empowering Businesses</span>
                 <br />
-                <span className="text-[#19324D] font-bold">
-                <span className="text-[#C4EE18] font-medium">Through </span>Insight and Innovation</span>
+              <span className="text-[#19324D] font-bold">
+              <span className="text-[#C4EE18] font-medium">Through </span>Insight and Innovation</span>
             </h2>
          
               {/* Sub text */}

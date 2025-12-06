@@ -41,7 +41,7 @@ export default function ServiceIntro() {
   ];
 
   return (
-   <section className="bg-[#fafafa] py-20">
+   <section className="bg-[#fafafa] pb-20">
        <div className=" max-w-6xl mx-auto pr-8 grid grid-cols-1 md:grid-cols-2 gap-10 border border-dashed border-[#e3e3e3] ">
 
        {/* LEFT SIDE LIST */}
