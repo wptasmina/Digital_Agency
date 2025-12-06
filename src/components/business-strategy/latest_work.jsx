@@ -42,10 +42,9 @@ const services = [
 
 export default function Latest_Work() {
   return (
-    <section className="max-w-6xl mx-auto bg-[#fafafa] py-20">
-
-        <div className="relative py-16">
-
+    <section className=" bg-[#fafafa] pb-20">
+      <div className="max-w-6xl mx-auto">
+         <div className="relative">
         {/* Background Image */}
         <img
             src={bgImg}
@@ -54,7 +53,8 @@ export default function Latest_Work() {
         />
 
         {/* TOP HEADING */}
-        <div className="flex justify-between relative z-10">
+
+        <div className="flex justify-between relative z-10 bg-[#fafafa]">
             <Top_Heading />
         </div>
 
@@ -66,7 +66,7 @@ export default function Latest_Work() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="border border-[#e3e3e3] border-dashed p-6 bg-white transition duration-300"
+              className="border border-[#e3e3e3] border-dashed p-6 bg-[#fefff9] transition duration-300"
             >
            <div className="flex justify-center items-center gap-6">
 
@@ -95,6 +95,7 @@ export default function Latest_Work() {
           ))}
 
         </div>
+      </div>
     </section>
   );
 }

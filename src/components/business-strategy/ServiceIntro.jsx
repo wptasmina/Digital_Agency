@@ -41,10 +41,11 @@ export default function ServiceIntro() {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto pr-8 grid grid-cols-1 md:grid-cols-2 gap-10 border border-dashed border-[#e3e3e3] ">
+   <section className="bg-[#fafafa] py-20">
+       <div className=" max-w-6xl mx-auto pr-8 grid grid-cols-1 md:grid-cols-2 gap-10 border border-dashed border-[#e3e3e3] ">
 
        {/* LEFT SIDE LIST */}
-     <div className="bg-[#fafafa] border border-transparent border-r-[#e3e3e3] border-dashed ">
+     <div className=" border border-transparent border-r-[#e3e3e3] border-dashed ">
       {/* LEFT SIDE */}
        <div className="">
         {services.map((item, idx) => (
@@ -116,6 +117,7 @@ export default function ServiceIntro() {
           <span className="block w-3 h-3 bg-[#C4EE18 ] rounded-full"></span>
         </div>
       </div>
-    </section>
+    </div>
+   </section>
   );
 }

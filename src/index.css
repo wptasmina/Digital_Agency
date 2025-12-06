@@ -27,10 +27,14 @@
 :root {
   --light-dark: #19324D;
   --lime-color: #C4EE18;
-  background: #fafafa;
-  color: #19324d;
+  /* background: #fafafa; */
+  /* color: #19324d; */
   box-sizing: border-box;
 border-bottom: undefinedpx dashed #e3e3e3;
+/* background: #19324d4d; */
+/* background: #fefff9; */
+/* box-sizing: border-box;
+border: 1px dashed rgba(227, 227, 227, 1); */
 }
 
 
