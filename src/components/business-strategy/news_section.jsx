@@ -6,9 +6,8 @@ import Marquees from './Marquee/marquees'
 
 export default function NewsSection() {
   return (
- <section className="bg-[#fefff9] py-16 overflow-hidden">
+ <section className="bg-[#fefff9] overflow-hidden">
   <div className="relative">
-
     {/* Background Image */}
     <img 
       src={backgroundImg}

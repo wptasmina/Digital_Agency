@@ -28,10 +28,9 @@ export default function Top_Heading() {
         </div>
 
         {/* Button  */}
-         <div className="flex justify-between items-end">  
+         {/* <div className="flex justify-between items-end">  
             <Button title="Read More" />
-          </div>
-
+          </div> */}
     </>
   )
 }

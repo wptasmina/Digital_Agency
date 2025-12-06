@@ -21,10 +21,10 @@ export default function Counter() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="flex flex-wrap justify-between gap-12 max-w-6xl mx-auto py-20 font-geist px-6">
+    <div ref={sectionRef} className="flex flex-wrap justify-between max-w-6xl mx-auto font-geist">
 
       {stats.map((item, i) => (
-        <div key={i} className="space-y-2 min-w-[150px]">
+        <div key={i} className="space-y-2 min-w-[150px] p-4 py-12 border border-[#e3e3e3] border-dashed ">
           
           <h1 className="text-[#19324D] text-6xl font-bold">
             {view && <CountUp end={item.end} duration={3} />}

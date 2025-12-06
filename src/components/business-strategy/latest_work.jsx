@@ -6,6 +6,7 @@ import img3 from "../../assets/service/img-3.png";
 import img4 from "../../assets/service/img-4.png";
 import img5 from "../../assets/service/img-5.png";
 import img6 from "../../assets/service/img-6.png";
+import Button from "../Button";
 
 const services = [
   {
@@ -42,60 +43,46 @@ const services = [
 
 export default function Latest_Work() {
   return (
-    <section className=" bg-[#fafafa] pb-20">
-      <div className="max-w-6xl mx-auto">
-         <div className="relative">
-        {/* Background Image */}
-        <img
-            src={bgImg}
-            alt="Background image"
-            className="absolute right-0 top-0 w-[300px] pointer-events-none select-none"
-        />
+  <section className="bg-[#fafafa] pb-20">   {/* add relative here */}
+  <div className="max-w-6xl mx-auto relative">
 
-        {/* TOP HEADING */}
+    {/* Background Image */}
+    <img
+      src={bgImg}
+      alt="Background image"
+      className="absolute right-20 top-10 w-[300px] h-72 z-10"
+    />
 
-        <div className="flex justify-between relative z-10 bg-[#fafafa]">
-            <Top_Heading />
-        </div>
+    {/* TOP HEADING */}
+    <div className="flex justify-between md:pb-10 pb-6">
+      <Top_Heading />
+      <div className="flex justify-between items-center">
+        <Button title="View All Work" />
+    </div>
+    </div>
 
-        </div>
+    {/* CARD GRID */}
+    <div className="grid md:grid-cols-2 gap-6 mt-4">
+      {services.map((service, index) => (
+        <div key={index} className="border border-[#e3e3e3] border-dashed bg-[#fefff9] p-6">
+          <div className="flex gap-6">
 
-
-        <div className="grid md:grid-cols-2 gap-6">
-
-          {services.map((service, index) => (
-            <div
-              key={index}
-              className="border border-[#e3e3e3] border-dashed p-6 bg-[#fefff9] transition duration-300"
-            >
-           <div className="flex justify-center items-center gap-6">
-
-            {/* IMAGE SECTION */}
             <div className="flex-1">
-                <img
-                src={service.img}
-                alt={service.title}
-                className="w-full object-cover block items-center"
-                />
+              <img src={service.img} alt={service.title} className="w-full object-cover" />
             </div>
 
-            {/* TEXT SECTION */}
-            <div className="flex-1"> 
-                <h3 className="text-2xl font-medium mb-2 text-gray-900">
-                {service.title}
-                </h3>
-
-                <p className="text-gray-600 font-normal text-sm leading-relaxed">
-                {service.desc}
-                </p>
-            </div>
+            <div className="flex-1">
+              <h3 className="text-2xl font-medium mb-2">{service.title}</h3>
+              <p className="text-gray-600 text-sm">{service.desc}</p>
             </div>
 
-            </div>
-          ))}
-
+          </div>
         </div>
-      </div>
-    </section>
+      ))}
+    </div>
+
+  </div>
+</section>
+
   );
 }
