@@ -41,8 +41,8 @@ export default function ServiceIntro() {
   ];
 
   return (
-   <section className="bg-[#fafafa] pb-20">
-       <div className=" max-w-6xl mx-auto pr-8 grid grid-cols-1 md:grid-cols-2 gap-10 border border-dashed border-[#e3e3e3] ">
+   <section className="bg-[#fafafa] pb-20 Container overflow-hidden">   {/* add relative here */}
+       <div className="max-w-6xl mx-auto pr-8 grid grid-cols-1 md:grid-cols-2 gap-10 border border-dashed border-[#e3e3e3] ">
 
        {/* LEFT SIDE LIST */}
      <div className=" border border-transparent border-r-[#e3e3e3] border-dashed ">

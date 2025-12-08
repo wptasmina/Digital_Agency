@@ -43,7 +43,7 @@ const services = [
 
 export default function Latest_Work() {
   return (
-  <section className="bg-[#fafafa] pb-20">   {/* add relative here */}
+  <section className="bg-[#fafafa] Container overflow-hidden">   {/* add relative here */}
   <div className="max-w-6xl mx-auto relative">
 
     {/* Background Image */}

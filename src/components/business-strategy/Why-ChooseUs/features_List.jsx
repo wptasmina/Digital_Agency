@@ -15,27 +15,27 @@ export default function FeaturesList() {
         <ul className="space-y-3 text-[#19324d]">
 
             <li className="flex items-start gap-3">
-              <IoMdCheckmark className="text-[#C4EE18] text-lg mt-[2px]" />
+              <IoMdCheckmark className="text-[#C4EE18] text-lg mt-0.5" />
               <span>Flexible payment options</span>
             </li>
 
             <li className="flex items-start gap-3">
-              <IoMdCheckmark className="text-[#C4EE18] text-lg mt-[2px]" />
+              <IoMdCheckmark className="text-[#C4EE18] text-lg mt-0.5" />
               <span>Knowledgeable and friendly staff</span>
             </li>
 
             <li className="flex items-start gap-3">
-              <IoMdCheckmark className="text-[#C4EE18] text-lg mt-[2px]" />
+              <IoMdCheckmark className="text-[#C4EE18] text-lg mt-0.5" />
               <span>A 24-hour claim line, call anytime</span>
             </li>
 
             <li className="flex items-start gap-3">
-              <IoMdCheckmark className="text-[#C4EE18] text-lg mt-[2px]" />
+              <IoMdCheckmark className="text-[#C4EE18] text-lg mt-0.5" />
               <span>Fast documentation and service</span>
             </li>
 
             <li className="flex items-start gap-3">
-              <IoMdCheckmark className="text-[#C4EE18] text-lg mt-[2px]" />
+              <IoMdCheckmark className="text-[#C4EE18] text-lg mt-0.5" />
               <span>Customer service that is second-to-none</span>
             </li>
 

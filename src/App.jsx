@@ -3,7 +3,7 @@ import { useState } from 'react'
 // import Cart from './components/footer';
 import Contact from './components/contact.jsx';
 import Footer from './components/footer.jsx';
-import Business_Consulting from './components/business-strategy/business-consulting/Business_Consulting.jsx';
+import BusinessStrategy from './app/page/businessConsulting/BusinessStrategy.jsx';
 
 
 
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div>
-        <Business_Consulting />
+        <BusinessStrategy />
         <Contact />
         <Footer />
       </div>
