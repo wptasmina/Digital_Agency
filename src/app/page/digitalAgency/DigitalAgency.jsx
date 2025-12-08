@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Banner from "./Banner";
 import Service from "./Service";
-import DreamersAndDoers from "./DreamersAndDoers";
+// import DreamersAndDoers from "./DreamersAndDoers";
 import AboutUs from "./AboutUs";
 import OurService from "./OurService";
 import NotSureWhereStart from "./NotSureWhereStart";
@@ -22,7 +22,7 @@ export default function DigitalAgency() {
       <NavBar />
       <Banner />
       <Service />
-      <DreamersAndDoers />
+      {/* <DreamersAndDoers /> */}
       <AboutUs />
       <OurService />
       <NotSureWhereStart />

@@ -6,9 +6,11 @@ import ServiceIntro from '../../../components/business-strategy/ServiceIntro'
 import Testimonial from '../../../components/business-strategy/Swipers/testimonial'
 import Time_Work from '../../../components/business-strategy/Time_Work'
 import FeatureSection from '../../../components/business-strategy/Why-ChooseUs/feature'
-import DreamersAndDoers from '../digitalAgency/DreamersAndDoers'
+import DreamersAndDoers from '../../../components/shear/DreamersAndDoers'
+
 
 import bgImages from '../../../assets/business-strategy/bgImage.png';
+import Highlight from '../../../components/shear/Highlight'
 
 export default function BusinessStrategy() {
   return (
@@ -17,10 +19,15 @@ export default function BusinessStrategy() {
       {/* <Services /> */}
       <OurServices />
       <DreamersAndDoers
-      title="A Team of Dreamers and Doers, Designing for the Future."
-      subtitle="Blending Creativity with Strategy, To Shape Digital Success."
-      bgImage={bgImages}   // ← background image
-      noBorder={true} 
+        title="A Team of Dreamers and Doers, Designing for the Future."
+        subtitle={
+        <>
+          Blending Creativity with Strategy, <br className="hidden lg:block font-normal" />
+          <Highlight> To Shape Digital Success.</Highlight>
+        </>
+        }
+        bgImage={bgImages}   // ← background image
+        noBorder={true} 
       />
 
 
