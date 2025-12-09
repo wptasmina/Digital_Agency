@@ -12,10 +12,14 @@ const services = [
   "Photography",
 ];
 
-export default function MarqueeBanner() {
+export default function MarqueeBanner({ transparent = false }) {
   return (
-    <section className="realtive overflow-hidden">
-      <div className="w-full bg-[#002827  py-10 sm:py-12 lg:py-[76px] ">
+    <section className="overflow-hidden">
+      <div
+        className={`w-full py-10 sm:py-12 lg:py-[76px] overflow-hidden ${
+          transparent ? "bg-transparent" : "bg-[#002827]"
+        }`}
+      >
         <div className="flex animate-marquee whitespace-nowrap">
           {[...services, ...services].map((service, index) => (
             <div key={index} className="flex items-center">

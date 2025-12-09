@@ -28,9 +28,10 @@ export default function NewsSection() {
 
 
     {/* Business Strategy News Slide Text */}
-    <div className="absolute bottom-0 bg-transparent text-white z-10">
-      <MarqueeBanner />
-    </div>
+  <div className="absolute bottom-0 bg-transparent text-white z-10 py-0 w-full">
+    <MarqueeBanner transparent={true} />
+  </div>
+
 
   </div>
 </section>
