@@ -37,7 +37,7 @@ const serviceData = [
   },
 ];
 
-export default function OurService() {
+export default function OurCard() {
   return (
     <div
       className="Container bg-[#fafafa]"

@@ -1,13 +1,13 @@
-import React from "react";
 import Button from "../../../components/Button";
-import T1 from "../../../assets/digitalAgency/image//LatestWor/T1.png";
-import T2 from "../../../assets/digitalAgency/image//LatestWor/T2.png";
-import T3 from "../../../assets/digitalAgency/image//LatestWor/T3.png";
-import T4 from "../../../assets/digitalAgency/image//LatestWor/T4.png";
-import T5 from "../../../assets/digitalAgency/image//LatestWor/T5.png";
-import T6 from "../../../assets/digitalAgency/image//LatestWor/T6.png";
-
+import T1 from "../../../assets/digitalAgency/image/LatestWork/T1.png";
+import T2 from "../../../assets/digitalAgency/image/LatestWork/T2.png";
+import T3 from "../../../assets/digitalAgency/image/LatestWork/T3.png";
+import T4 from "../../../assets/digitalAgency/image/LatestWork/T4.png";
+import T5 from "../../../assets/digitalAgency/image/LatestWork/T5.png";
+import T6 from "../../../assets/digitalAgency/image/LatestWork/T6.png";
 import LatestWorkCard from "../../../components/LatestWorkCard";
+
+
 
 const LatestWorkData = [
   {

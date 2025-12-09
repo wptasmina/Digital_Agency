@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../../../assets/digitalAgency/logo/Logo.png";
-import Call from "../../../assets/digitalAgency/icons/Call.png";
+import Call from "../../../assets/icons/Call.png";
 import Hamburger from "../../../assets/digitalAgency/icons/Hamburger.png";
 
 const navItem = ["Home", "Services", "About Us", "Pages", "Pricing", "Contact"];

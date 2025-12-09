@@ -41,7 +41,7 @@ const services = [
   },
 ];
 
-export default function Latest_Work() {
+export default function OurLatestWork() {
   return (
   <section className="bg-[#fafafa] Container overflow-hidden">   {/* add relative here */}
   <div className="max-w-6xl mx-auto relative">

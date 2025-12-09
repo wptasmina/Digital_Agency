@@ -11,7 +11,7 @@ const DreamersAndDoers = ({
 
   return (
     <div
-      className="Container bg-[#B6BCC6] "
+      className="Container bg-[#fafafa] "
       style={{
         backgroundImage: hasBg ? `url(${bgImage})` : "none",
         backgroundSize: "cover",
@@ -26,7 +26,6 @@ const DreamersAndDoers = ({
         `}
       >
         {title}
-        {/* <br className="hidden lg:block font-normal" /> */}
       </p>
        <p 
        className={`pl-4 sm:pl-6 lg:pl-10 mb-8 sm:mb-10 lg:mb-[50px]

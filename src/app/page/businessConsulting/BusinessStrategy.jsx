@@ -1,7 +1,7 @@
 import Our_Expertise from '../../../components/business-strategy/Expertise-Section/Our_Expertise'
-import Latest_Work from '../../../components/business-strategy/latest_work'
+import Latest_Work from '../../../components/business-strategy/ourLatestWork'
 import NewsSection from '../../../components/business-strategy/news_Section'
-import OurServices from '../../../components/business-strategy/ourServices'
+import OurCard from '../../../components/business-strategy/ourCard'
 import ServiceIntro from '../../../components/business-strategy/ServiceIntro'
 import FeatureSection from '../../../components/business-strategy/Why-ChooseUs/feature'
 import DreamersAndDoers from '../../../components/shear/DreamersAndDoers'
@@ -21,9 +21,7 @@ import HeroSection from '../../../components/business-strategy/HeroBanner/heroSe
 export default function BusinessStrategy() {
   return (
     <>
-
-      {/* <Services /> */}
-      <OurServices />
+      <OurCard />
       <DreamersAndDoers
         title="A Team of Dreamers and Doers, Designing for the Future."
         subtitle={
@@ -38,7 +36,7 @@ export default function BusinessStrategy() {
 
 
  {/* MAIN CONTENT GRID */}
-      <HeroSection />
+      {/* <HeroSection />
       <ServiceIntro />
       <Latest_Work />
       <NewsSection />
@@ -49,7 +47,7 @@ export default function BusinessStrategy() {
       <YourGrowYourPlan />     
       <OurLatestNewsBlog />
       <OurTeam />
-     <MarqueeBanner />
+     <MarqueeBanner /> */}
     </>
   )
 }

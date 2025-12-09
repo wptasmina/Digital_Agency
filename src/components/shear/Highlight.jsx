@@ -2,9 +2,9 @@
 
 
 
-const Highlight = ({ children }) => {
+const Highlight = ({ children, className }) => {
   return (
-    <span className="text-white font-normal ">
+    <span className={className}>
       {children}
     </span>
   );

@@ -1,4 +1,4 @@
-import React from "react";
+
 import Video from "../../../assets/digitalAgency/icons/Video.png";
 
 export default function Banner() {
@@ -11,7 +11,7 @@ export default function Banner() {
         </h1>
         <p className="my-10 text-center">
           We are a results-driven digital agency dedicated to helping brands
-          grow in today’s fast-changing world.
+          grow in today&apos;s fast-changing world.
         </p>
         <div className="flex justify-center items-center gap-[27px]">
           <button className="flex items-center bg-[#C4EE18] font-bold py-2.5 px-4 rounded-tl-lg rounded-tr-[2px] rounded-b-[2px]">

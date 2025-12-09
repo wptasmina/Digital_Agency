@@ -1,9 +1,10 @@
-import React from "react";
+
 import S1 from "../../../assets/digitalAgency/icons/service/S1.png";
 import S2 from "../../../assets/digitalAgency/icons/service/S2.png";
 import S3 from "../../../assets/digitalAgency/icons/service/S3.png";
 import S4 from "../../../assets/digitalAgency/icons/service/S4.png";
-import ServiceCard from "../../../components/ServiceCard";
+import ServiceCard from "../../../components/shear/ServiceCard";
+
 
 const serviceData = [
   {

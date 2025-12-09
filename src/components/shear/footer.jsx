@@ -1,9 +1,9 @@
 
-import '../index.css';
+import '../../index.css';
 import { CiFacebook, CiLinkedin } from "react-icons/ci";
 import { FaXTwitter, FaWhatsapp, FaInstagram, FaPhone, FaLocationDot } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
-import Logo from '../assets/Logo.png';
+import Logo from '../../assets/Logo.png';
 
 
 export default function Footer() {
@@ -91,7 +91,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Footer */}
-      <div className="flex justify-between text-sm text-gray-400 mt-6 px-2">
+      <div className="flex justify-between flex-col md:flex-row text-sm text-gray-400 mt-6 px-2">
         <div className="flex gap-6">
           <p>Terms & Condition</p>
           <p>Privacy Policy</p>
