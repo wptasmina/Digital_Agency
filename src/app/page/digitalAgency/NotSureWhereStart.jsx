@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import React from "react";
+
 import Button from "../../../components/Button";
 
 export default function NotSureWhereStart() {
@@ -16,7 +16,7 @@ export default function NotSureWhereStart() {
 
         {/* Main Heading */}
         <h1 className="mb-6 sm:mb-7 text-3xl sm:text-4xl md:text-5xl lg:text-[65px]  leading-tight">
-          <span className="text-gray-400">It's Time </span>
+          <span className="text-white">It's Time </span>
           <span className=" text-primary">To Work</span>
           <br className="hidden sm:block" />
           <span className="text-primary">Differently</span>

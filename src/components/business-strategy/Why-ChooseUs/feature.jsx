@@ -8,7 +8,13 @@ export default function FeatureSection() {
     <section className="bg-[#fefff9] py-16 px-6 md:px-20 overflow-hidden">
      {/* TOP HEADING */}
       <div className="flex justify-between max-w-6xl mx-auto py-8">
-          <Top_Heading />
+          <Top_Heading 
+          title="Why Choose Us"
+          heading={<>More Than an Agency </>}
+          highlight={
+                      <> — We&apos;re <br/>Your Growth Partner. </>
+                    } 
+          />
     
         {/* Button  */}
         <div className="flex justify-between items-center">  

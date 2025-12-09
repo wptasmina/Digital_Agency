@@ -4,14 +4,13 @@
 export default function TopHeading({ title, heading, highlight}) {
   return (
     <>
-    <div className="">
       <div className="flex md:flex-row flex-col gap-8 justify-between">
              {/* Label */}
        <div>
           <div className="flex items-center gap-2 pt-2 md:pb-0 pb-4">
             <span className="w-3 h-3 bg-[#C4EE18] rounded-full"></span>
             <div>
-              <p className="text-sm font-medium text-[#19324D] uppercase">{title}</p>
+              <p className="text-sm font-normal text-[#19324D] uppercase">{title}</p>
             </div>
           </div>
        </div>
@@ -29,7 +28,7 @@ export default function TopHeading({ title, heading, highlight}) {
             </p>
         </div>
       </div>
-    </div>
+
       
         {/* Button  */}
          {/* <div className="flex justify-between items-end">  

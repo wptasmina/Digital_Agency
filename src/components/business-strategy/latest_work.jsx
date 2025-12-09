@@ -57,11 +57,12 @@ export default function Latest_Work() {
     <div className="flex justify-between md:pb-10 pb-6">
       <Top_Heading 
        title="our latest work"
-              heading={<>Transforming Businesses </>}
-              highlight={
-              <> With <br/>Powerful Digital Solutions Through  </>
-              } 
+      heading={<>Transforming Businesses </>}
+      highlight={
+                  <> With <br/>Powerful Digital Solutions Through  </>
+                } 
       />
+      
       <div className="flex justify-center items-center">
         <Button title="View All Work" />
     </div>

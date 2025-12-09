@@ -17,8 +17,14 @@ export default function Our_Expertise() {
          
              {/* TOP HEADING */}
              <div className="flex justify-between md:pb-10 pb-6">
-               <Top_Heading />
-               <div className="flex justify-between items-center">
+               <Top_Heading 
+               title="A Glimpse of Our Expertise"
+              heading={<>Numbers That Define </>}
+              highlight={
+              <> Our Journeyand <br/> the Impact We Create</>
+              } 
+               />
+               <div className="flex items-center justify-center">
                  <Button title="Call Us Now" />
              </div>
              </div>

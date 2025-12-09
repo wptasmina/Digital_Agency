@@ -1,6 +1,7 @@
 import backgroundImg from '../../assets/business-strategy/news-bg.png'
 import videoIcon from '../../assets/icons/video-icon.png'
-import Marquees from './Marquee/marquees'
+import MarqueeBanner from './../../app/page/digitalAgency/MarqueeBanner';
+
 
 
 
@@ -27,8 +28,8 @@ export default function NewsSection() {
 
 
     {/* Business Strategy News Slide Text */}
-    <div className="absolute bottom-2 text-white z-10">
-      <Marquees />  {/* Business Strategy News Slide */}
+    <div className="absolute bottom-0 bg-transparent text-white z-10">
+      <MarqueeBanner />
     </div>
 
   </div>

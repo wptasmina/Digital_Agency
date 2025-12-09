@@ -7,14 +7,15 @@ const services = [
   "Brand Strategy",
   "Social Media",
   "Digital Marketing",
+  "Social Media Marketing",
   "UI/UX Design",
   "Photography",
 ];
 
 export default function MarqueeBanner() {
   return (
-    <section className="">
-      <div className="w-full bg-[#002827] py-10 sm:py-12 lg:py-[76px] overflow-hidden">
+    <section className="realtive overflow-hidden">
+      <div className="w-full bg-[#002827  py-10 sm:py-12 lg:py-[76px] ">
         <div className="flex animate-marquee whitespace-nowrap">
           {[...services, ...services].map((service, index) => (
             <div key={index} className="flex items-center">

@@ -4,7 +4,6 @@ import NewsSection from '../../../components/business-strategy/news_Section'
 import OurServices from '../../../components/business-strategy/ourServices'
 import ServiceIntro from '../../../components/business-strategy/ServiceIntro'
 import Testimonial from '../../../components/business-strategy/Swipers/testimonial'
-import Time_Work from '../../../components/business-strategy/Time_Work'
 import FeatureSection from '../../../components/business-strategy/Why-ChooseUs/feature'
 import DreamersAndDoers from '../../../components/shear/DreamersAndDoers'
 
@@ -12,6 +11,7 @@ import DreamersAndDoers from '../../../components/shear/DreamersAndDoers'
 import bgImages from '../../../assets/business-strategy/bgImage.png';
 import Highlight from '../../../components/shear/Highlight'
 import HeroSlider from '../../../components/business-strategy/HeroSlider/HeroSlider'
+import NotSureWhereStart from '../digitalAgency/NotSureWhereStart'
 
 export default function BusinessStrategy() {
   return (
@@ -39,7 +39,7 @@ export default function BusinessStrategy() {
       <NewsSection />
       <Our_Expertise />
       <FeatureSection />
-      <Time_Work />
+      <NotSureWhereStart />
       <Testimonial />      
     
     </>
