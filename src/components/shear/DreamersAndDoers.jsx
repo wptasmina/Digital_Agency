@@ -18,7 +18,6 @@ const DreamersAndDoers = ({
         backgroundPosition: "center",
       }}
     >
-      <div className="">
         <p
         className={`pl-4 sm:pl-6 lg:pl-10
           text-2xl sm:text-4xl lg:text-[65px]
@@ -38,7 +37,6 @@ const DreamersAndDoers = ({
        >
           {subtitle}
         </p>
-      </div>
 
       <div className="pl-4 sm:pl-6 lg:pl-10">
         <Button title="Get Started Now" />

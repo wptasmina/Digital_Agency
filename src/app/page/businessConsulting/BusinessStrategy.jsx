@@ -11,6 +11,7 @@ import DreamersAndDoers from '../../../components/shear/DreamersAndDoers'
 
 import bgImages from '../../../assets/business-strategy/bgImage.png';
 import Highlight from '../../../components/shear/Highlight'
+import HeroSlider from '../../../components/business-strategy/HeroSlider/HeroSlider'
 
 export default function BusinessStrategy() {
   return (
@@ -32,6 +33,7 @@ export default function BusinessStrategy() {
 
 
  {/* MAIN CONTENT GRID */}
+      <HeroSlider />
       <ServiceIntro />
       <Latest_Work />
       <NewsSection />

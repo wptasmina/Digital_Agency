@@ -7,6 +7,8 @@ import Servicse4 from "../../assets/icons/our-service/service7.png"
 import Servicse5 from "../../assets/icons/our-service/service8.png"
 import leftArrow from "../../assets/icons/our-service/left-arrow.png";
 import upArrow from "../../assets/icons/our-service/up-arrow.png";
+import TopHeading from "./Top_Heading";
+
 
 
 export default function ServiceIntro() {
@@ -42,8 +44,25 @@ export default function ServiceIntro() {
 
   return (
    <section className="bg-[#fafafa] pb-20 Container overflow-hidden">   {/* add relative here */}
-       <div className="max-w-6xl mx-auto pr-8 grid grid-cols-1 md:grid-cols-2 gap-10 border border-dashed border-[#e3e3e3] ">
 
+      {/* Top Heading */}
+        <div className="max-w-6xl mx-auto ">
+          <div className="flex justify-between flex-col md:flex-row gap-6 md:pb-10 pb-6">
+            <TopHeading 
+              title="OUR SERVICES"
+              heading={<> Empowering Businesses <br/> Through </>}
+              highlight={
+                <> Insight and Innovation </>
+              }      
+              />
+        <div className="flex  items-end">
+          <Button title="Read More" />
+        </div>
+      </div>
+      </div>
+
+    {/* card list and image */}
+  <div className="max-w-6xl mx-auto pr-8 grid grid-cols-1 md:grid-cols-2 gap-10 border border-dashed border-[#e3e3e3] ">
        {/* LEFT SIDE LIST */}
      <div className=" border border-transparent border-r-[#e3e3e3] border-dashed ">
       {/* LEFT SIDE */}
