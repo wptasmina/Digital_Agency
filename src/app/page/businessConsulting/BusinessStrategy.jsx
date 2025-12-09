@@ -13,6 +13,7 @@ import bgImages from '../../../assets/business-strategy/bgImage.png';
 import YourGrowYourPlan from '../digitalAgency/YourGrowYourPlan'
 import OurLatestNewsBlog from '../digitalAgency/OurLatestNewsBlog'
 import Testimonial from '../../../components/shear/Testimonial'
+import OurTeam from '../../../components/business-strategy/OurTeam'
 
 export default function BusinessStrategy() {
   return (
@@ -44,6 +45,7 @@ export default function BusinessStrategy() {
       <Testimonial /> 
       <YourGrowYourPlan />     
       <OurLatestNewsBlog />
+      <OurTeam />
     
     </>
   )
