@@ -14,6 +14,9 @@ import YourGrowYourPlan from '../digitalAgency/YourGrowYourPlan'
 import OurLatestNewsBlog from '../digitalAgency/OurLatestNewsBlog'
 import Testimonial from '../../../components/shear/Testimonial'
 import OurTeam from '../../../components/business-strategy/OurTeam'
+import MarqueeBanner from '../digitalAgency/MarqueeBanner'
+import HeroSection from '../../../components/business-strategy/HeroBanner/heroSection'
+
 
 export default function BusinessStrategy() {
   return (
@@ -35,7 +38,7 @@ export default function BusinessStrategy() {
 
 
  {/* MAIN CONTENT GRID */}
-      {/* <HeroSlider /> */}
+      <HeroSection />
       <ServiceIntro />
       <Latest_Work />
       <NewsSection />
@@ -46,7 +49,7 @@ export default function BusinessStrategy() {
       <YourGrowYourPlan />     
       <OurLatestNewsBlog />
       <OurTeam />
-    
+     <MarqueeBanner />
     </>
   )
 }

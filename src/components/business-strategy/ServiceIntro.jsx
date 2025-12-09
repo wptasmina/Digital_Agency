@@ -55,10 +55,10 @@ export default function ServiceIntro() {
                 <> Insight and Innovation </>
               }      
               />
-        <div className="flex  items-end">
-          <Button title="Read More" />
-        </div>
-      </div>
+            <div className="flex  items-end">
+              <Button title="Read More" />
+            </div>
+          </div>
       </div>
 
     {/* card list and image */}
