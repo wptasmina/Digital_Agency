@@ -1,9 +1,11 @@
-import React, { useState } from "react";
-import Button from "../../../components/Button";
+import { useState } from "react";
 import { ChevronRight } from "lucide-react";
-import YourGrowYourPlanCard from "../../../components/YourGrowYourPlanCard";
+import Button from "../../../components/Button";
+import YourGrowYourPlanCard from "../../../components/business-strategy/YourGrowYourPlanCard";
+import TopHeading from "../../../components/business-strategy/Top_Heading";
 
-export const PricingPlans = [
+
+const PricingPlans = [
   {
     planName: "Starter Plan",
     pricePerMonth: "$350",
@@ -54,7 +56,22 @@ export default function YourGrowYourPlan() {
   return (
     <section className="Container bg-[#FAFAFA]">
       <div className="">
-        <div className="">
+        {/* TOP HEADING */}
+                <div className="max-w-6xl mx-auto ">
+                  <div className="flex justify-between flex-col md:flex-row gap-6 md:pb-10 pb-6">
+                    <TopHeading 
+                      title="YOUR GROW, YOUR PLAN"
+                      heading="Creative Solution For Every Budget"
+                      highlight={
+                        <> Every <br/> Budget </>
+                      }      
+                      />
+                <div className="flex  items-end">
+                  <Button title="View More" />
+                </div>
+              </div>
+              </div>
+        {/* <div className="">
           <div>
             <div className="flex items-center gap-2.5">
               <span className="w-[11px] h-[11px] bg-primary rounded-full" />
@@ -74,7 +91,7 @@ export default function YourGrowYourPlan() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="flex items-center justify-center sm:justify-end gap-4 mt-6 sm:mt-8 lg:mt-[30px]">
           <span
             className={`text-sm font-medium transition-colors ${

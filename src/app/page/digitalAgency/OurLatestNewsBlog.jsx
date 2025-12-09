@@ -1,6 +1,7 @@
-import React from "react";
+import BlogSection from "../../../components/BlogSection";
 import Button from "../../../components/Button";
-import BlogSection from "../../../components/BlogPost";
+
+
 
 export default function OurLatestNewsBlog() {
   return (
@@ -27,7 +28,7 @@ export default function OurLatestNewsBlog() {
             </div>
           </div>
         </div>
-        <div className="">
+        <div>
           <BlogSection />
         </div>
       </div>

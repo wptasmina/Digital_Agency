@@ -3,15 +3,16 @@ import Latest_Work from '../../../components/business-strategy/latest_work'
 import NewsSection from '../../../components/business-strategy/news_Section'
 import OurServices from '../../../components/business-strategy/ourServices'
 import ServiceIntro from '../../../components/business-strategy/ServiceIntro'
-import Testimonial from '../../../components/business-strategy/Swipers/testimonial'
 import FeatureSection from '../../../components/business-strategy/Why-ChooseUs/feature'
 import DreamersAndDoers from '../../../components/shear/DreamersAndDoers'
-
-
-import bgImages from '../../../assets/business-strategy/bgImage.png';
-import Highlight from '../../../components/shear/Highlight'
-import HeroSlider from '../../../components/business-strategy/HeroSlider/HeroSlider'
 import NotSureWhereStart from '../digitalAgency/NotSureWhereStart'
+
+
+import Highlight from '../../../components/shear/Highlight'
+import bgImages from '../../../assets/business-strategy/bgImage.png';
+import YourGrowYourPlan from '../digitalAgency/YourGrowYourPlan'
+import OurLatestNewsBlog from '../digitalAgency/OurLatestNewsBlog'
+import Testimonial from '../../../components/shear/Testimonial'
 
 export default function BusinessStrategy() {
   return (
@@ -33,14 +34,16 @@ export default function BusinessStrategy() {
 
 
  {/* MAIN CONTENT GRID */}
-      <HeroSlider />
+      {/* <HeroSlider /> */}
       <ServiceIntro />
       <Latest_Work />
       <NewsSection />
       <Our_Expertise />
       <FeatureSection />
       <NotSureWhereStart />
-      <Testimonial />      
+      <Testimonial /> 
+      <YourGrowYourPlan />     
+      <OurLatestNewsBlog />
     
     </>
   )

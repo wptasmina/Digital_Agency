@@ -1,6 +1,6 @@
 import Button from '../../Button';
 import bgImg from "../../../assets/service/bg-pattern.png";
-import Top_Heading from './../Top_Heading';
+import TopHeading from './../Top_Heading';
 import Counter from './counter';
 
 export default function Our_Expertise() {
@@ -16,19 +16,22 @@ export default function Our_Expertise() {
              />
          
              {/* TOP HEADING */}
-             <div className="flex justify-between md:pb-10 pb-6">
-               <Top_Heading 
-               title="A Glimpse of Our Expertise"
-              heading={<>Numbers That Define </>}
+        <div className="max-w-6xl mx-auto ">
+          <div className="flex justify-between flex-col md:flex-row gap-6 md:pb-10 pb-6">
+            <TopHeading 
+              title="A Glimpse of Our Expertise"
+              heading="Numbers That Define"
               highlight={
-              <> Our Journeyand <br/> the Impact We Create</>
-              } 
-               />
-               <div className="flex items-center justify-center">
-                 <Button title="Call Us Now" />
-             </div>
-             </div>
+                <> Our Journeyand  <br/> the Impact We Create </>
+              }      
+              />
+        <div className="flex  items-center">
+          <Button title="Call Us Now" />
         </div>
+      </div>
+      </div>
+
+    </div>
     
 
         <Counter />

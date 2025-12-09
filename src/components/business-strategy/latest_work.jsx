@@ -1,4 +1,4 @@
-import Top_Heading from "./Top_Heading";
+import TopHeading from "./Top_Heading";
 import bgImg from "../../assets/service/bg-pattern.png";
 import img1 from "../../assets/service/img-1.png";
 import img2 from "../../assets/service/img-2.png";
@@ -53,20 +53,21 @@ export default function Latest_Work() {
       className="absolute right-20 top-10 w-[300px] h-72 z-10"
     />
 
-    {/* TOP HEADING */}
-    <div className="flex justify-between md:pb-10 pb-6">
-      <Top_Heading 
-       title="our latest work"
-      heading={<>Transforming Businesses </>}
-      highlight={
-                  <> With <br/>Powerful Digital Solutions Through  </>
-                } 
-      />
-      
-      <div className="flex justify-center items-center">
-        <Button title="View All Work" />
-    </div>
-    </div>
+        {/* TOP HEADING */}
+      <div className="max-w-6xl mx-auto ">
+          <div className="flex justify-between flex-col md:flex-row gap-6 md:pb-10 pb-6">
+            <TopHeading 
+              title="our latest work"
+              heading="Transforming Businesses "
+              highlight={
+                <> With <br/> Powerful Digital Solutions </>
+              }      
+              />
+        <div className="flex justify-center items-center">
+          <Button title="View All Work" />
+        </div>
+      </div>
+      </div>
 
     {/* CARD GRID */}
     <div className="grid md:grid-cols-2 gap-6 mt-4">
