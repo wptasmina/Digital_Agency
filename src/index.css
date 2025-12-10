@@ -34,6 +34,47 @@
     @apply text-gray-700 text-sm font-medium
 }
 
+/* Marketing Agency  */
+.agency{
+  background: linear-gradient(90.00deg, rgba(25, 50, 77, 0),rgba(25, 50, 77, 1) 100%);
+}
+
+/* Swiper navigation buttons */
+/* Navigation buttons background & position */
+.my-swiper .swiper-button-next,
+.my-swiper .swiper-button-prev {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px !important;
+  height: 35px !important;
+  color: #e3e3e3 !important;
+  background-color: transparent; /* button background */
+  border-radius: 50%;
+  border:1px solid #e3e3e3;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Arrow color (pseudo-element) */
+.my-swiper .swiper-button-next::after,
+.my-swiper .swiper-button-prev::after {
+  /* color: black; arrow color */
+  font-size: 18px;
+}
+
+/* Optional: hover effect */
+.my-swiper .swiper-button-next:hover,
+.my-swiper .swiper-button-prev:hover {
+  background-color: #C4EE18; /* amber-300 */
+}
+
+.bg-gradient-colors {
+  background: linear-gradient(90.00deg, rgba(25, 50, 77, 0),rgba(25, 50, 77, 1) 100%);
+}
+
 }
 
 

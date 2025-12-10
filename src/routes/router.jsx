@@ -1,3 +1,4 @@
+
 import {
     createBrowserRouter
   } from "react-router-dom";
@@ -10,22 +11,32 @@ import App from "../App";
 
 
 import HomePage from "../app/page/digitalAgency/HomePage";
+import BusinessConsulting from "../app/page/businessConsulting/BusinessConsulting";
+import MarketingAgency from "../app/page/marketingAgency/MarketingAgency";
 
 
 export const router = createBrowserRouter([
     {
       path: "/",
+      // element: <Root></Root>,
       element: <App />,
       // errorElement: <ErrorPage />,
       children: [
         {
           path: "/",
           element: <HomePage />,
-        //   loader: () => fetch('https://blogging-server-omega.vercel.app/homeblog')
         },
         {
-          path: "/about",
-          // element: <About />,
+          path: "/business-consulting",
+          element: <BusinessConsulting />,
+        },
+        {
+          path: "/marketing-agency",
+          element: <MarketingAgency />,
+        },
+        {
+          path: "/aboutUs",
+          // element: <AboutUsPage />,
         },
         // {
         //   path: "/allblogs",

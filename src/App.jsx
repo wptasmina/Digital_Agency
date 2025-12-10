@@ -3,7 +3,7 @@ import { useState } from 'react'
 // import Cart from './components/footer';
 
 
-import BusinessStrategy from './app/page/businessConsulting/BusinessStrategy.jsx';
+import BusinessStrategy from './app/page/businessConsulting/BusinessConsulting.jsx';
 import NavBar from './app/page/digitalAgency/NavBar.jsx';
 
 import { Outlet } from "react-router-dom"
@@ -26,7 +26,7 @@ function App() {
     <>
       <div className={theme}>
         {/* <BusinessStrategy /> */}
-        <NavBar />
+        {/* <NavBar /> */}
         <div className="min-h-[calc(100vh-360px)] ">
         <Outlet></Outlet>
         </div>

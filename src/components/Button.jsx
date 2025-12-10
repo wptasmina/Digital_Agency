@@ -1,8 +1,8 @@
-import React from 'react'
 
-export default function Button({title}) {
+
+export default function Button({title, className}) {
   return (
-      <button className="flex items-center bg-[#C4EE18] font-bold py-2.5 px-4 rounded-tl-lg rounded-tr-[2px] rounded-b-[2px]">
+      <button className={`flex items-center bg-[#C4EE18] font-bold py-2.5 px-4 rounded-tl-lg rounded-tr-[2px] rounded-b-[2px] cursor-pointer ${className}`}>
             <span className="mr-2.5 font-medium text-[#19324d]">{title}</span>
             {/* Arrow Icon */}
             <div className="w-6 h-6 bg-white text-[#19324D] rounded-[1px] flex items-center justify-center">
