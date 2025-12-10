@@ -3,6 +3,7 @@ import HeroBanner from "../../../components/marketing-agency/heroBanner";
 import MarketAboutUs from "../../../components/marketing-agency/marketAboutUs";
 import OurMarketServices from "../../../components/marketing-agency/ourMarketServices";
 import RotatImg from "../../../components/marketing-agency/rotatImg";
+import StatsSection from "../../../components/marketing-agency/StatsSection";
 
 
 export default function MarketingAgency() {
@@ -10,8 +11,9 @@ export default function MarketingAgency() {
     <>
       <HeroBanner/>
       <OurMarketServices />
-      {/* <RotatImg /> */}
       <MarketAboutUs />
+      <StatsSection />
+      {/* <RotatImg /> */}
       {/* <FeatureSection /> */}
       {/* <ButtonGray /> */}
     </>

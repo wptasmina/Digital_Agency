@@ -1,4 +1,4 @@
-import { IoMdCheckmark } from "react-icons/io";
+
 
 export default function FeaturesList({ title, subtitle, subItem }) {
   return (
