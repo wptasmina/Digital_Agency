@@ -4,11 +4,12 @@
 export default function TopHeading({ title, heading, highlight, subtitle}) {
   return (
     <>
-      {/* <div className="flex md:flex-row flex-col gap-8 justify-between"> */}
              {/* Label */}
        <div>
           <div className="flex items-center gap-2 pt-2 md:pb-0 pb-4">
-            <span className="w-3 h-3 bg-[#C4EE18] rounded-full"></span>
+            {title && (
+              <span className="w-3 h-3 bg-[#C4EE18] rounded-full"></span>
+            )}
             <div>
               <p className="text-sm font-normal text-[#19324D] uppercase">{title}</p>
             </div>
@@ -23,9 +24,8 @@ export default function TopHeading({ title, heading, highlight, subtitle}) {
             </h2>
          
               {/* Sub text */}
-            <p className="mt-6 text-gray-600 text-lg max-w-2xl leading-relaxed">
+            <p className="mt-6 text-[#5F758C] text-sm md:text-base mb-6 max-w-2xl leading-relaxed">
               {subtitle}
-              We blend innovation with practical strategy to create meaningful solutions that adapt to your needs, and unlock new opportunities for success.
             </p>
         </div>
       {/* </div> */}

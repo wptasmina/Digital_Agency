@@ -17,8 +17,18 @@ export default function FeatureAboutUs() {
         </div>
 
         {/* Right Content */}
-       
-          <FeaturesList />
+        <FeaturesList 
+            title="Features Coverage For Every Aspect Of Your Life"
+            subtitle="Whether you are a business owner, a landlord, or a property owner, Falcon Insurance is able to help to protect you and your assets from the worst possible eventualities.And because the team at Falcon insurance are so experienced and are fully trained, they will find the right cover for you.They will never try to sell you an insurance policy you do not need or will not cover you and they will make sure your insurance policy covers you completely in the event of something happening.Giving you the peace of mind that you are being protected by a professional company that puts your best interests first."
+            subItem={[
+              "Flexible payment options",
+              "24/7 Support Available",
+              "Fast documentation process",
+              "Friendly customer management",
+              "Highly trusted service globally"
+            ]}
+          />
+
 
       </div>
     </section>

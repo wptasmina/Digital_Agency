@@ -39,7 +39,7 @@ export default function NavBar() {
 
   return (
     <nav className="fixed mx-auto w-full backdrop-blur-lg z-50">
-      <div className="flex justify-between items-center py-4 sm:py-5 lg:py-7 px-4 sm:px-6 lg:px-10 border-[1px] border-[#EBEBEB]">
+      <div className="flex justify-between items-center py-4 sm:py-5 lg:py-7 px-4 sm:px-6 lg:px-10 border-b-[1px] border-[#EBEBEB]">
 
         {/* Logo */}
         <div className="w-[70px] h-5 sm:w-20 sm:h-[23px] lg:w-[93px] lg:h-[27px]">

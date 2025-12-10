@@ -1,13 +1,18 @@
+import FeatureSection from "../../../components/business-strategy/Why-ChooseUs/feature";
 import HeroBanner from "../../../components/marketing-agency/heroBanner";
-import SimpleSlider from "../../../components/marketing-agency/SimpleSlider";
-import ButtonGray from "../../../components/shear/ButtonGray";
+import MarketAboutUs from "../../../components/marketing-agency/marketAboutUs";
+import OurMarketServices from "../../../components/marketing-agency/ourMarketServices";
+import RotatImg from "../../../components/marketing-agency/rotatImg";
 
 
 export default function MarketingAgency() {
   return (
     <>
       <HeroBanner/>
-      {/* <SimpleSlider/> */}
+      <OurMarketServices />
+      {/* <RotatImg /> */}
+      <MarketAboutUs />
+      {/* <FeatureSection /> */}
       {/* <ButtonGray /> */}
     </>
   )

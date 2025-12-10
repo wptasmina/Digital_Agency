@@ -26,7 +26,7 @@ function App() {
     <>
       <div className={theme}>
         {/* <BusinessStrategy /> */}
-        {/* <NavBar /> */}
+        <NavBar />
         <div className="min-h-[calc(100vh-360px)] ">
         <Outlet></Outlet>
         </div>
