@@ -1,27 +1,6 @@
-
-
-
-// const ServiceIcon = ({ isHighlighted }) => (
-//   <div
-//     className={`
-//       w-16 h-16 rounded-full flex items-center justify-center 
-//       ${isHighlighted ? 'bg-white' : 'bg-gray-100'}
-//     `}
-//   >
-//     {/* Placeholder for the Icon/SVG */}
-//     <svg 
-//       className={`w-8 h-8 ${isHighlighted ? 'text-lime-400' : 'text-blue-900'}`} 
-//       fill="currentColor" 
-//       viewBox="0 0 24 24"
-//     >
-//       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15.17l-3.58-3.58L9.83 12 11 13.17l4.17-4.17L16.34 10.34 11 15.68V17.17z"/>
-//     </svg>
-//   </div>
-// );
-
 import { BsArrowUpRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
-
+import serviceIcon from "../../assets/digitalAgency/icons/our-service/service4.png"
 
 const OurMarketServicesCard = () => {
   
@@ -54,29 +33,23 @@ const services = [
 
   return (
 <section className="py-16 w-full flex justify-center">
-      <div className="grid md:grid-cols-3 gap-8 max-w-6xl">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl">
 
         {services.map((item, index) => (
           <div 
             key={item.id}
-            className={`p-4 rounded-xl bg-white hover:shadow-md transition duration-300 text-center relative`}
-          >
-
-            {/* Pill Shape with rotation */}
-            {/* <div 
-              className={`
-                w-16 h-32 rounded-full mx-auto mb-6 
-                flex items-center justify-center
-              ${item.bg}
-              `}
-              style={{ transform: `rotate(${item.rotate})` }}
-            >
-              🔆 {/* Replace with icon image */}
-            {/* </div> */} 
+            className={`px-4 py-8 rounded-xl bg-white hover:shadow-md transition duration-300 text-center relative`}
+          > 
 
         <div className="flex gap-6">
-            <div  className={`w-[80px] h-[200px] rounded-full flex items-center justify-center
-              ${item.bg}`}>🔆</div>
+            <div  className={`w-20 h-40 rounded-full overflow-hidden flex justify-center items-start
+              ${item.bg}`}>
+                <img 
+                src={serviceIcon} 
+                alt="service Icon" 
+                className="w-10 h-10 object-contain mt-4 p-2"
+                />
+            </div>
 
             {/* Text */}
             <div className="flex flex-col justify-center items-start">

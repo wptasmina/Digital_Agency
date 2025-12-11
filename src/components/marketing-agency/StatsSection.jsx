@@ -10,7 +10,7 @@ export default function StatsSection() {
         <div className="flex items-center gap-16">
 
           {/* Stat - 85% */}
-          <div className="text-center border">
+          <div className="text-center">
             <h2 className="text-5xl font-bold">
               <CountUp end={85} duration={3} />%
             </h2>
