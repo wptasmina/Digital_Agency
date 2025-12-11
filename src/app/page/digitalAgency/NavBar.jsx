@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../../../assets/digitalAgency/logo/Logo.png";
 import Call from "../../../assets/icons/Call.png";
@@ -11,15 +11,15 @@ const navItem = [
   },
   {
     name: "Services",
-    submenu: ["Web Design", "SEO", "Marketing"],
+    submenu: ["Service Details", "SEO", "Marketing"],
   },
   { name: "About Us" },
   {
     name: "Pages",
-    submenu: ["Blog", "Team", "FAQ"],
+    submenu: ["Blog", "Blog Details", "FAQ"],
   },
   { name: "Pricing" },
-  { name: "Contact" },
+  { name: "Contact Us" },
 ];
 
 export default function NavBar() {

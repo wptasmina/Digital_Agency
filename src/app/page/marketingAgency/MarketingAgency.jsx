@@ -5,6 +5,7 @@ import LatestWorkSlider from "../../../components/marketing-agency/LatestWorkSli
 import MarketAboutUs from "../../../components/marketing-agency/marketAboutUs";
 import OurMarketServices from "../../../components/marketing-agency/ourMarketServices";
 import StatsSection from "../../../components/marketing-agency/StatsSection";
+import ContactUsPage from "../contact-us/contactUsPage";
 
 
 export default function MarketingAgency() {
@@ -15,6 +16,7 @@ export default function MarketingAgency() {
       <MarketAboutUs />
       <StatsSection />
       <LatestWorkSlider />
+      <ContactUsPage /> 
       {/* <RotatImg /> */}
       {/* <FeatureSection /> */}
       {/* <ButtonGray /> */}

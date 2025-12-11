@@ -14,6 +14,8 @@ import MarqueeBanner from "./MarqueeBanner";
 import YourGrowYourPlan from "./YourGrowYourPlan";
 import Testimonial from "../../../components/shear/Testimonial";
 import OurLatestNewsBlog from "./OurLatestNewsBlog";
+import ContactUs from "../../../components/shear/ContactUs";
+import ContactUsPage from "../contact-us/contactUsPage";
 
 
 export default function HomePage() {
@@ -45,6 +47,8 @@ export default function HomePage() {
       <YourGrowYourPlan />
       <Testimonial bgColor="bg-white" />
       <OurLatestNewsBlog />
+      {/* <ContactUs />  */}
+      <ContactUsPage /> 
     </div>
   );
 }

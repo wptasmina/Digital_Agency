@@ -10,13 +10,17 @@ import BusinessConsulting from "../app/page/businessConsulting/BusinessConsultin
 import MarketingAgency from "../app/page/marketingAgency/MarketingAgency";
 import AboutUs from "../app/page/aboutus/AboutUsPage";
 import OurServicePage from "../app/page/Services-Page/ourServicePage";
+import ContactUs from "../components/shear/ContactUs";
+import ServiceDetails from "../app/page/Services-Page/service-details/ServiceDetails";
+import ErrorPage from "../app/page/ErrorPage/ErrorPage";
+import Pricing from "../app/page/Pricing/pricing";
 
 
 export const router = createBrowserRouter([
     {
       path: "/",
       element: <App />,
-      // errorElement: <ErrorPage />,
+      errorElement: <ErrorPage />,
       children: [
         {
           path: "/",
@@ -35,8 +39,20 @@ export const router = createBrowserRouter([
           element: <OurServicePage />,
         },
         {
+          path: "/service-details",
+          element: <ServiceDetails />,
+        },
+        {
           path: "/about-us",
           element: <AboutUs />,
+        },
+        {
+          path: "/pricing",
+          element: <Pricing />,
+        },
+        {
+          path: "/contact-us",
+          element: <ContactUs />,
         },
         // {
         //   path: "/allblogs",

@@ -9,7 +9,6 @@ import FeatureSection from '../../../components/business-strategy/Why-ChooseUs/f
 import DreamersAndDoers from '../../../components/shear/DreamersAndDoers'
 import NotSureWhereStart from '../digitalAgency/NotSureWhereStart'
 
-
 import Highlight from '../../../components/shear/Highlight'
 import bgImages from '../../../assets/business-strategy/bgImage.png';
 import YourGrowYourPlan from '../digitalAgency/YourGrowYourPlan'
@@ -18,6 +17,7 @@ import Testimonial from '../../../components/shear/Testimonial'
 import OurTeam from '../../../components/business-strategy/OurTeam'
 import MarqueeBanner from '../digitalAgency/MarqueeBanner'
 import HeroSection from '../../../components/business-strategy/HeroBanner/heroSection'
+import ContactUsPage from '../contact-us/contactUsPage'
 
 
 export default function BusinessConsulting() {
@@ -50,6 +50,7 @@ export default function BusinessConsulting() {
       <OurLatestNewsBlog />
       <OurTeam />
       <MarqueeBanner />
+      <ContactUsPage /> 
     </>
   )
 }

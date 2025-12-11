@@ -21,11 +21,9 @@ function App() {
     <>
       <div className={theme}>
         <NavBar />
-        {/* <div className="min-h-[calc(100vh-360px)] "> */}
+        <div className="min-h-[calc(100vh-360px)] ">
         <Outlet></Outlet>
-        {/* </div> */}
-
-        <ContactUs />
+        </div>
         <Footer />
       </div>
     
