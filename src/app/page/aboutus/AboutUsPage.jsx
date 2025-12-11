@@ -19,7 +19,6 @@ export default function AboutUsPage() {
       <WhyChooseUs />
       <GlimpseOurExpertise />
       <MarqueeBanner />
-      {/* <YourGrowYourPlan /> */}
       <Testimonial bgColor="bg-white" />
       <Faq />
       {/* <OurService /> */}

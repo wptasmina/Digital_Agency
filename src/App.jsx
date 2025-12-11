@@ -1,9 +1,3 @@
-import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import Cart from './components/footer';
-
-
-import BusinessStrategy from './app/page/businessConsulting/BusinessConsulting.jsx';
 import NavBar from './app/page/digitalAgency/NavBar.jsx';
 
 import { Outlet } from "react-router-dom"
@@ -16,10 +10,11 @@ import Footer from './components/shear/footer.jsx';
 const theme = localStorage.getItem("theme") || "light";
 
 function App() {
-  useEffect(() => {
-    document.documentElement.className = theme; // Ensures correct class is set
-    localStorage.setItem("theme", theme);
-  }, [theme]);
+
+  // useEffect(() => {
+  //   document.documentElement.className = theme; 
+  //   localStorage.setItem("theme", theme);
+  // }, [theme]);
   
 
   return (

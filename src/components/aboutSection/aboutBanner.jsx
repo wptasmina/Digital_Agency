@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import bgImages from '../../assets/digitalAgency/about/banner.jpg';
 
@@ -10,10 +9,6 @@ export default function AboutBanner() {
   const goHome = () => {
     navigate("/");
   };
-
-//   const goAbout = () => {
-//     navigate("/about-us");
-//   };
 
   return (
  <section className="relative overflow-hidden Container bg-white">
@@ -62,6 +57,6 @@ export default function AboutBanner() {
           <img src={bgImages} alt="image" className="w-full lg:h-[500px] object-cover" />
         </div>
       </div>
-    </section>
+  </section>
   )
 }

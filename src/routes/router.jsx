@@ -1,30 +1,25 @@
 
-import {
-    createBrowserRouter
-  } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 
 import App from "../App";
 
-
-
 // import ErrorPage from "../Pages/ErrorPage";
-
 
 import HomePage from "../app/page/digitalAgency/HomePage";
 import BusinessConsulting from "../app/page/businessConsulting/BusinessConsulting";
 import MarketingAgency from "../app/page/marketingAgency/MarketingAgency";
 import AboutUs from "../app/page/aboutus/AboutUsPage";
+import OurServicePage from "../app/page/Services-Page/ourServicePage";
 
 
 export const router = createBrowserRouter([
     {
       path: "/",
-      // element: <Root></Root>,
       element: <App />,
       // errorElement: <ErrorPage />,
       children: [
         {
-          path: "/home",
+          path: "/",
           element: <HomePage />,
         },
         {
@@ -34,6 +29,10 @@ export const router = createBrowserRouter([
         {
           path: "/marketing-agency",
           element: <MarketingAgency />,
+        },
+        {
+          path: "/services",
+          element: <OurServicePage />,
         },
         {
           path: "/about-us",

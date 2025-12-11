@@ -18,7 +18,7 @@ export default function OurLatestNewsBlog() {
                         <>in Design, <br/> Tech & Strategy</>
                       }      
                       />
-                <div className="flex  items-end">
+                <div className="flex items-end">
                   <Button title="View More" />
                 </div>
               </div>

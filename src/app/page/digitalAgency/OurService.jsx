@@ -62,6 +62,20 @@ const services = [
     description:
       "From brand identity and logo design to web development, digital marketing, and content creation",
   },
+  {
+    id: 7,
+    icon: S5,
+    title: "SEO",
+    description:
+      "From brand identity and logo design to web development, digital marketing, and content creation",
+  },
+  {
+    id: 7,
+    icon: S6,
+    title: "Media Marketing",
+    description:
+      "From brand identity and logo design to web development, digital marketing, and content creation",
+  },
 ];
 
 export default function OurService() {
