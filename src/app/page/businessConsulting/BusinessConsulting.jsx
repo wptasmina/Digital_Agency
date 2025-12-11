@@ -49,7 +49,7 @@ export default function BusinessConsulting() {
       <YourGrowYourPlan />     
       <OurLatestNewsBlog />
       <OurTeam />
-     <MarqueeBanner />
+      <MarqueeBanner />
     </>
   )
 }

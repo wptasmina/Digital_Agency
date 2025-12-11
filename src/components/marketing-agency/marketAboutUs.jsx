@@ -22,7 +22,6 @@ export default function MarketAboutUs() {
                 </div>
                             
             {/* Right Content *//* TOP HEADING */}
-                           
             <div className="flex flex-col space-y-4">
                 <ButtonGray title='our services' />
 

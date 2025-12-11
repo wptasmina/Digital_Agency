@@ -25,11 +25,10 @@ function App() {
   return (
     <>
       <div className={theme}>
-        {/* <BusinessStrategy /> */}
         <NavBar />
-        <div className="min-h-[calc(100vh-360px)] ">
+        {/* <div className="min-h-[calc(100vh-360px)] "> */}
         <Outlet></Outlet>
-        </div>
+        {/* </div> */}
 
         <ContactUs />
         <Footer />

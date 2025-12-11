@@ -67,7 +67,7 @@ const services = [
 export default function OurService() {
   return (
     <section className="Container overflow-hidden">
-      <div className="">
+      <div className="max-w-6xl mx-auto">
         <div className="mb-4 sm:mb-6 lg:mb-2.5">
           <div>
             <div className="flex items-center gap-2.5">

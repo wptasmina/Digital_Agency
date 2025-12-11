@@ -13,6 +13,7 @@ import App from "../App";
 import HomePage from "../app/page/digitalAgency/HomePage";
 import BusinessConsulting from "../app/page/businessConsulting/BusinessConsulting";
 import MarketingAgency from "../app/page/marketingAgency/MarketingAgency";
+import AboutUs from "../app/page/aboutus/AboutUsPage";
 
 
 export const router = createBrowserRouter([
@@ -23,7 +24,7 @@ export const router = createBrowserRouter([
       // errorElement: <ErrorPage />,
       children: [
         {
-          path: "/",
+          path: "/home",
           element: <HomePage />,
         },
         {
@@ -35,8 +36,8 @@ export const router = createBrowserRouter([
           element: <MarketingAgency />,
         },
         {
-          path: "/aboutUs",
-          // element: <AboutUsPage />,
+          path: "/about-us",
+          element: <AboutUs />,
         },
         // {
         //   path: "/allblogs",

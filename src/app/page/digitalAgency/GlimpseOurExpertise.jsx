@@ -34,7 +34,7 @@ const stats = [
 export default function GlimpseOurExpertise() {
   return (
     <section className="Container">
-      <div className="">
+      <div className="max-w-6xl mx-auto ">
         <div className="mb-10 sm:mb-12 lg:mb-[60px]">
           <div>
             <div className="flex items-center gap-2.5">

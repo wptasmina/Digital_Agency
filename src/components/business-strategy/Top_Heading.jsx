@@ -1,7 +1,7 @@
 
 
 
-export default function TopHeading({ title, heading, highlight, subtitle}) {
+export default function TopHeading({ title, heading, highlight, subtitle, className}) {
   return (
     <>
              {/* Label */}
@@ -17,10 +17,10 @@ export default function TopHeading({ title, heading, highlight, subtitle}) {
        </div>
 
               {/* Heading */}
-          <div>
+          <div className={className}>
             <h2 className="text-3xl md:text-4xl lg::text-[40px] leading-snug">
               <span className="text-[#C4EE18] font-normal">{heading}</span>
-              <span className="text-[#19324D] font-bold">{highlight}</span>
+              <span className="text-[#19324D] font-normal">{highlight}</span>
             </h2>
          
               {/* Sub text */}

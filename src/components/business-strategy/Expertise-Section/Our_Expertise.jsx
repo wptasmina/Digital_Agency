@@ -33,8 +33,7 @@ export default function Our_Expertise() {
 
     </div>
     
-
-        <Counter />
+    <Counter />
     </section>
   )
 }

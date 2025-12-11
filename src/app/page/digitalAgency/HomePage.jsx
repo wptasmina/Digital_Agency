@@ -4,7 +4,6 @@ import Banner from "./Banner";
 import Service from "./Service";
 import AboutUs from "./AboutUs";
 import OurService from "./OurService";
-
 import LatestWork from "./LatestWork";
 import DreamersAndDoers from "../../../components/shear/DreamersAndDoers";
 import Highlight from "../../../components/shear/Highlight";

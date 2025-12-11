@@ -48,7 +48,7 @@ export default function HeroSection() {
       <div className="space-y-6">
           <div className="flex flex-col md:gap-5 md:pb-10 pb-6">
             <TopHeading 
-              title="About atri"
+              title="About"
               heading={<>Empowering Businesses <br/> Through </>}
               highlight={
                 <> Insight and Innovation </>

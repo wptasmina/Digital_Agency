@@ -1,9 +1,22 @@
 import CountUp from "react-countup";
+import { useEffect, useRef, useState } from "react";
 import { HiArrowUpRight } from "react-icons/hi2";
 
+
 export default function StatsSection() {
+    const [view, setView] = useState(false);
+    const sectionRef = useRef(null);
+
+      useEffect(() => {
+        const observer = new IntersectionObserver(
+          ([entry]) => setView(entry.isIntersecting),
+          { threshold: 0.4 }
+        );
+        if (sectionRef.current) observer.observe(sectionRef.current);
+      }, []);
+    
   return (
-    <section className="w-full bg-[#05292C] text-white py-20">
+    <section ref={sectionRef} className="w-full bg-[#05292C] text-white py-20">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
 
         {/* Left Stats */}
@@ -12,7 +25,7 @@ export default function StatsSection() {
           {/* Stat - 85% */}
           <div className="text-center">
             <h2 className="text-5xl font-bold">
-              <CountUp end={85} duration={3} />%
+              {view && <CountUp end={85} duration={3} />}%
             </h2>
             <p className="text-sm mt-2">Cover Marketing</p>
           </div>
@@ -20,7 +33,7 @@ export default function StatsSection() {
           {/* Stat - 98% */}
           <div className="text-center">
             <h2 className="text-5xl font-bold">
-              <CountUp end={98} duration={3} />%
+              {view && <CountUp end={98} duration={3} />}%
             </h2>
             <p className="text-sm mt-2">Client Review</p>
           </div>

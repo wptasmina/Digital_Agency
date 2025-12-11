@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { ArrowRight, ChevronDown } from "lucide-react";
 import Button from "../../../components/Button";
-import A1 from "../../assets/digitalAgency/icons/faq/Arrow1.png";
-import A2 from "../../assets/digitalAgency/icons/faq/Arrow2.png";
+import A1 from "../../../assets/digitalAgency/icons/faq/Arrow1.png";
+import A2 from "../../../assets/digitalAgency/icons/faq/Arrow2.png";
 
 const faqs = [
   {
@@ -45,7 +44,7 @@ export default function Faq() {
   };
 
   return (
-    <section className="py-[100px]">
+    <section className="Container py-16">
       <div className="px-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left Column */}

@@ -1,8 +1,9 @@
-import FeatureSection from "../../../components/business-strategy/Why-ChooseUs/feature";
+// _3 marketing-Agency 
+
 import HeroBanner from "../../../components/marketing-agency/heroBanner";
+import LatestWorkSlider from "../../../components/marketing-agency/LatestWorkSlider";
 import MarketAboutUs from "../../../components/marketing-agency/marketAboutUs";
 import OurMarketServices from "../../../components/marketing-agency/ourMarketServices";
-import RotatImg from "../../../components/marketing-agency/rotatImg";
 import StatsSection from "../../../components/marketing-agency/StatsSection";
 
 
@@ -13,6 +14,7 @@ export default function MarketingAgency() {
       <OurMarketServices />
       <MarketAboutUs />
       <StatsSection />
+      <LatestWorkSlider />
       {/* <RotatImg /> */}
       {/* <FeatureSection /> */}
       {/* <ButtonGray /> */}

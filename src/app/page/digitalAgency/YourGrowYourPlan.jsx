@@ -57,7 +57,7 @@ export default function YourGrowYourPlan() {
     <section className="Container bg-[#FAFAFA]">
       <div className="">
         {/* TOP HEADING */}
-                <div className="max-w-6xl mx-auto ">
+          <div className="max-w-6xl mx-auto ">
                   <div className="flex justify-between flex-col md:flex-row gap-6 md:pb-10 pb-6">
                     <TopHeading 
                       title="YOUR GROW, YOUR PLAN"
@@ -70,7 +70,7 @@ export default function YourGrowYourPlan() {
                   <Button title="View More" />
                 </div>
               </div>
-              </div>
+          </div>
         {/* <div className="">
           <div>
             <div className="flex items-center gap-2.5">
