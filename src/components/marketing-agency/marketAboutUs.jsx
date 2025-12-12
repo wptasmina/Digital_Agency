@@ -2,8 +2,7 @@
 import ButtonGray from '../shear/ButtonGray'
 import Button from '../Button'
 import FeatureBgImg from "../../assets/marketing/aboutUs.png"
-import TopHeading from '../business-strategy/Top_Heading';
-import FeaturesList from '../business-strategy/Why-ChooseUs/features_List';
+import FeaturesList from '../businessConsulting/Why-ChooseUs/features_List';
 
 export default function MarketAboutUs() {
   return (

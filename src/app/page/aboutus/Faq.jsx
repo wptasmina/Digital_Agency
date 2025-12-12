@@ -2,6 +2,8 @@ import { useState } from "react";
 import Button from "../../../components/Button";
 import A1 from "../../../assets/digitalAgency/icons/faq/Arrow1.png";
 import A2 from "../../../assets/digitalAgency/icons/faq/Arrow2.png";
+import TopBannerSection from "../../../components/shear/TopBanner";
+import Highlight from "../../../components/shear/Highlight";
 
 const faqs = [
   {
@@ -48,7 +50,7 @@ export default function Faq() {
       <div className="px-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left Column */}
-          <div className="">
+          {/* <div className="">
             <div className="flex items-center gap-2 mb-7">
               <div className="w-3 h-3 rounded-full bg-primary" />
               <span className="text-[13px] text-slate-800 uppercase">
@@ -75,7 +77,22 @@ export default function Faq() {
               your journey toward growth.
             </p>
             <Button title="Read More" />
-          </div>
+          </div> */}
+
+          <TopBannerSection
+            badge = "Frequently Ask Question"
+            title={
+              <>Answers to Common
+              <Highlight className="text-slate-800 font-medium">About Our Services
+              </Highlight></>
+            }
+            subtitle="Have questions about how we work, our process, or what to expect?
+              We've got you covered. This section answers the most common
+              questions our clients ask — from project timelines and pricing to
+              strategy and results — so you can feel confident before we begin
+              your journey toward growth."
+            className = ""
+          />
 
           {/* Right Column - FAQ Accordion */}
           <div className="flex flex-col gap-4">

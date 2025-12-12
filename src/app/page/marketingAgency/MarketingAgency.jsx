@@ -17,7 +17,6 @@ export default function MarketingAgency() {
       <StatsSection />
       <LatestWorkSlider />
       <ContactUsPage /> 
-      {/* <RotatImg /> */}
       {/* <FeatureSection /> */}
       {/* <ButtonGray /> */}
     </>

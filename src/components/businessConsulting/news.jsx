@@ -1,11 +1,11 @@
-import backgroundImg from '../../assets/business-strategy/news-bg.png'
+import backgroundImg from '../../assets/businessConsulting/news-bg.png'
 import videoIcon from '../../assets/icons/video-icon.png'
-import MarqueeBanner from './../../app/page/digitalAgency/MarqueeBanner';
+import MarqueeBanner from '../../app/page/digitalAgency/MarqueeBanner';
 
 
 
 
-export default function NewsSection() {
+export default function News() {
   return (
  <section className="bg-[#fefff9] overflow-hidden">
   <div className="relative">

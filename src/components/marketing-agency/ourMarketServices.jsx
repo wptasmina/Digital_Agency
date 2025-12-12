@@ -1,7 +1,8 @@
-import TopHeading from "../business-strategy/Top_Heading";
+
 import Button from "../Button";
 import ButtonGray from "../shear/ButtonGray";
 import OurMarketServicesCard from "./OurMarketServicesCard";
+import TopHeading from '../shear/TopHeading';
 
 
 export default function OurMarketServices() {

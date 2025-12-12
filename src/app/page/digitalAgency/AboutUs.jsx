@@ -2,7 +2,7 @@ import A1 from "../../../assets/digitalAgency/about/A1.png";
 import Abater1 from "../../../assets/digitalAgency/about/Abater1.png";
 import Abater2 from "../../../assets/digitalAgency/about/Abater2.png";
 import Abater3 from "../../../assets/digitalAgency/about/Abater3.png";
-import FeaturesList from "../../../components/business-strategy/Why-ChooseUs/features_List";
+import FeaturesList from "../../../components/businessConsulting/Why-ChooseUs/features_List";
 import heroIcon from '../../../assets/icons/heroIcons.png'
 
 const avatars = [Abater1, Abater2, Abater3];

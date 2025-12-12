@@ -1,5 +1,5 @@
 import Button from "../../Button";
-import TopHeading from "../Top_Heading";
+import TopHeading from "../../shear/TopHeading";
 import Feature_Buttons from "./feature_buttons";
 
 

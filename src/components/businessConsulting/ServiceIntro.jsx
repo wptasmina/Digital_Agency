@@ -1,5 +1,5 @@
 import Button from "../Button";
-import serviceIntorImage from "../../assets/business-strategy/service-intro.png";
+import serviceIntorImage from "../../assets/businessConsulting/service-intro.png";
 import Servicse1 from "../../assets/icons/our-service/service1.png"
 import Servicse2 from "../../assets/icons/our-service/service4.png"
 import Servicse3 from "../../assets/icons/our-service/service9.png"
@@ -7,7 +7,8 @@ import Servicse4 from "../../assets/icons/our-service/service7.png"
 import Servicse5 from "../../assets/icons/our-service/service8.png"
 import leftArrow from "../../assets/icons/our-service/left-arrow.png";
 import upArrow from "../../assets/icons/our-service/up-arrow.png";
-import TopHeading from "./Top_Heading";
+import TopHeading from "../shear/TopHeading";
+
 
 
 

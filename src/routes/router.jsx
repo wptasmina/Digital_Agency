@@ -13,8 +13,8 @@ import OurServicePage from "../app/page/Services-Page/ourServicePage";
 import ContactUs from "../components/shear/ContactUs";
 import ServiceDetails from "../app/page/Services-Page/service-details/ServiceDetails";
 import ErrorPage from "../app/page/ErrorPage/ErrorPage";
-import Pricing from "../components/common/pricing";
-import PricingPage from "../app/page/Pricing/pricingPage";
+import Pricing from "../components/common/PricingSection";
+import PricingPage from "../app/page/Pricing/pricing";
 import BlogPage from "../app/page/Blog/blogPage";
 
 
@@ -54,7 +54,7 @@ export const router = createBrowserRouter([
         },
         {
           path: "/pricing",
-          element: <PricingPage />,
+          element: <Pricing />,
         },
         {
           path: "/contact-us",

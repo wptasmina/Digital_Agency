@@ -41,19 +41,19 @@ export default function PageHeader({ title, subtitle, currentPage = [], image })
                   Home
                 </span>
 
-            {/* <span className="text-slate-400">/</span>
+            <span className="text-slate-400">/</span>
 
             <span className="text-sm font-medium text-slate-800 font-semibold">
               {currentPage}
-            </span> */}
+            </span>
           
             {/* Breadcrumb bullets */}
-            {currentPage.map((page, index) => (
+            {/* {currentPage.map((page, index) => (
               <div key={index} className="flex items-center gap-3">
                 <span className="text-slate-400">/</span>
                 <span className="text-slate-800 font-semibold">{page}</span>
               </div>
-            ))}
+            ))} */}
           
 
           </div>

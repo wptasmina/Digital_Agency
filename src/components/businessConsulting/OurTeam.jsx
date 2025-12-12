@@ -1,10 +1,11 @@
 import Button from "../Button";
-import TopHeading from "./Top_Heading";
+
 import img1 from "../../assets/ourTeam/team1.png";
 import img2 from "../../assets/ourTeam/team2.png";
 import img3 from "../../assets/ourTeam/team3.png";
 import img4 from "../../assets/ourTeam/team4.png";
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import TopHeading from "../shear/TopHeading";
 
 
 const teamService = [
@@ -68,18 +69,18 @@ export default function OurTeam() {
     
         {/* Top Heading */}
     <div className="max-w-6xl mx-auto">
-                      <div className="flex justify-between flex-col md:flex-row gap-6 md:pb-10 pb-6">
-                        <TopHeading 
-                          title="our Team"
-                          heading={<>Together, We Make  <br/> Great  </>}
-                          highlight={
-                            <>hings Happen</>
-                          }      
-                          />
-                    <div className="flex  items-end">
-                      <Button title="View More" />
-                    </div>
-                  </div>
+        <div className="flex justify-between flex-col md:flex-row gap-6 md:pb-10 pb-6">
+           <TopHeading 
+             title="our Team"
+             heading={<>Together, We Make  <br/> Great  </>}
+             highlight={
+               <>hings Happen</>
+             }      
+             />
+          <div className="flex  items-end">
+            <Button title="View More" />
+          </div>
+       </div>
     </div>
     
     {/* CARD GRID */}

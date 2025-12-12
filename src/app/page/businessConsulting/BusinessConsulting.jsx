@@ -1,23 +1,23 @@
 // 02_Business Consulting
 
-import Our_Expertise from '../../../components/business-strategy/Expertise-Section/Our_Expertise'
-import Latest_Work from '../../../components/business-strategy/ourLatestWork'
-import NewsSection from '../../../components/business-strategy/news_Section'
-import OurCard from '../../../components/business-strategy/ourCard'
-import ServiceIntro from '../../../components/business-strategy/ServiceIntro'
-import FeatureSection from '../../../components/business-strategy/Why-ChooseUs/feature'
-import DreamersAndDoers from '../../../components/shear/DreamersAndDoers'
+import LatestWork from '../../../components/businessConsulting/ourLatestWork'
+import OurCard from '../../../components/businessConsulting/ourCard'
+import ServiceIntro from '../../../components/businessConsulting/ServiceIntro'
 import NotSureWhereStart from '../digitalAgency/NotSureWhereStart'
 
-import Highlight from '../../../components/shear/Highlight'
-import bgImages from '../../../assets/business-strategy/bgImage.png';
+import bgImages from '../../../assets/businessConsulting/bgImage.png';
 import YourGrowYourPlan from '../digitalAgency/YourGrowYourPlan'
 import OurLatestNewsBlog from '../digitalAgency/OurLatestNewsBlog'
 import Testimonial from '../../../components/shear/Testimonial'
-import OurTeam from '../../../components/business-strategy/OurTeam'
+import OurTeam from '../../../components/businessConsulting/OurTeam'
 import MarqueeBanner from '../digitalAgency/MarqueeBanner'
-import HeroSection from '../../../components/business-strategy/HeroBanner/heroSection'
+import AboutAtri from '../../../components/businessConsulting/HeroBanner/AboutAtri'
 import ContactUsPage from '../contact-us/contactUsPage'
+import OurExpertise from '../../../components/businessConsulting/Expertise-Section/OurExpertise'
+import DreamersAndDoers from './../../../components/shear/DreamersAndDoers';
+import Highlight from './../../../components/shear/Highlight';
+import News from '../../../components/businessConsulting/news';
+import FeatureSection from './../../../components/businessConsulting/Why-ChooseUs/feature';
 
 
 export default function BusinessConsulting() {
@@ -36,13 +36,12 @@ export default function BusinessConsulting() {
         noBorder={true} 
       />
 
-
  {/* MAIN CONTENT GRID */}
-      <HeroSection />
+      <AboutAtri/>
       <ServiceIntro />
-      <Latest_Work />
-      <NewsSection />
-      <Our_Expertise />
+      <LatestWork />
+      <News />
+      <OurExpertise />
       <FeatureSection />
       <NotSureWhereStart />
       <Testimonial /> 

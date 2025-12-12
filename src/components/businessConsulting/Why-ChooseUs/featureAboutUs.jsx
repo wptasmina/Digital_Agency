@@ -1,5 +1,5 @@
 
-import FeatureBgImg from "../../../assets/business-strategy/feature-bg.png";
+import FeatureBgImg from "../../../assets/businessConsulting/feature-bg.png";
 import FeaturesList from "./features_List";
 
 export default function FeatureAboutUs() {

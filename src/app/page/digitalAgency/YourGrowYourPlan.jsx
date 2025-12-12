@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { ChevronRight } from "lucide-react";
 import Button from "../../../components/Button";
-import YourGrowYourPlanCard from "../../../components/business-strategy/YourGrowYourPlanCard";
-import TopHeading from "../../../components/business-strategy/Top_Heading";
+import TopHeading from "../../../components/shear/TopHeading";
+import YourGrowYourPlanCard from './../../../components/businessConsulting/YourGrowYourPlanCard';
 
 
 const PricingPlans = [
@@ -58,7 +58,7 @@ export default function YourGrowYourPlan() {
       <div className="">
         {/* TOP HEADING */}
           <div className="max-w-6xl mx-auto ">
-                  <div className="flex justify-between flex-col md:flex-row gap-6 md:pb-10 pb-6">
+              <div className="flex justify-between flex-col md:flex-row gap-6 md:pb-10 pb-6">
                     <TopHeading 
                       title="YOUR GROW, YOUR PLAN"
                       heading="Creative Solution For Every Budget"
@@ -71,27 +71,8 @@ export default function YourGrowYourPlan() {
                 </div>
               </div>
           </div>
-        {/* <div className="">
-          <div>
-            <div className="flex items-center gap-2.5">
-              <span className="w-[11px] h-[11px] bg-primary rounded-full" />
-              <span className="text-[13px] text-slate-800 uppercase">
-                YOUR GROW, YOUR PLAN
-              </span>
-            </div>
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 sm:gap-4">
-              <h2 className=" mt-6 sm:mt-8 lg:mt-[30px] text-2xl sm:text-3xl lg:text-[40px] text-slate-800 leading-tight">
-                <span className="font-light">Creative Solution </span>{" "}
-                <span className="font-medium">Every</span>
-                <br className=" hidden lg:block" />
-                <span className="font-medium">Budget</span>
-              </h2>
-              <div className="w-full sm:w-auto">
-                <Button title="View More" />
-              </div>
-            </div>
-          </div>
-        </div> */}
+
+              {/* Monthly button */}
         <div className="flex items-center justify-center sm:justify-end gap-4 mt-6 sm:mt-8 lg:mt-[30px]">
           <span
             className={`text-sm font-medium transition-colors ${

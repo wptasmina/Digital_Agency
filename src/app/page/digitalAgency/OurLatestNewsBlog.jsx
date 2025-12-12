@@ -1,6 +1,6 @@
 import BlogSection from "../../../components/BlogSection";
-import TopHeading from "../../../components/business-strategy/Top_Heading";
 import Button from "../../../components/Button";
+import TopHeading from './../../../components/shear/TopHeading';
 
 
 

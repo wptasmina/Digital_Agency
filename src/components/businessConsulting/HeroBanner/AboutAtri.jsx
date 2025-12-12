@@ -1,12 +1,13 @@
 
 import { Phone } from "lucide-react"; // icon library (optional)
-import handsomeBusinessm from '../../../assets/business-strategy/handsome-businessman.png'; 
-import TopHeading from "../Top_Heading";
+import handsomeBusinessm from '../../../assets/businessConsulting/handsome-businessman.png'; 
+
 import Button from "../../Button";
 import heroIcon from '../../../assets/icons/heroIcons.png'
+import TopHeading from "../../shear/TopHeading";
 
 
-export default function HeroSection() {
+export default function AboutAtri() {
   return (
     <section className="w-full bg-[#f8f9fa] py-16">
       <div className="Container max-w-6xl mx-auto px-6 grid md:grid-cols-2 items-center gap-10">
@@ -44,11 +45,10 @@ export default function HeroSection() {
 
 
         {/* RIGHT CONTENT AREA */}
-        
       <div className="space-y-6">
           <div className="flex flex-col md:gap-5 md:pb-10 pb-6">
             <TopHeading 
-              title="About"
+              title="About atri"
               heading={<>Empowering Businesses <br/> Through </>}
               highlight={
                 <> Insight and Innovation </>

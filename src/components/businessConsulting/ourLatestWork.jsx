@@ -1,4 +1,4 @@
-import TopHeading from "./Top_Heading";
+
 import bgImg from "../../assets/service/bg-pattern.png";
 import img1 from "../../assets/service/img-1.png";
 import img2 from "../../assets/service/img-2.png";
@@ -7,6 +7,7 @@ import img4 from "../../assets/service/img-4.png";
 import img5 from "../../assets/service/img-5.png";
 import img6 from "../../assets/service/img-6.png";
 import Button from "../Button";
+import TopHeading from "../shear/TopHeading";
 
 const services = [
   {

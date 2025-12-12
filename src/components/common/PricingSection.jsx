@@ -1,13 +1,13 @@
 import pricingBgImage from '../../assets/digitalAgency/image/our-service/pricingBg.jpg';
 import NotSureWhereStart from '../../app/page/digitalAgency/NotSureWhereStart';
-import PageHeader from '../shear/PageHeader/PageHeader';
-import TopBannerSection from '../shear/TopBannerSection';
+
+import TopBannerSection from '../shear/TopBanner';
 import PricingCardList from './PricingCardList';
 import Highlight from '../shear/Highlight';
 import Faq from '../../app/page/aboutus/Faq';
 import ContactUsPage from '../../app/page/contact-us/contactUsPage';
 import Testimonial from '../shear/Testimonial';
-
+import PageHeader from '../shear/PageHeader/PageHeader';
 
 
 const plans = [
@@ -98,7 +98,7 @@ const plans = [
 ];
 
 
-export default function Pricing() {
+export default function PricingSection() {
   return (
     <div>
       <PageHeader
@@ -112,7 +112,9 @@ export default function Pricing() {
           <TopBannerSection
             badge = "YOUR GROW, YOUR PLAN"
             title={
-              <>Creative Solution For <Highlight className="text-slate-800 font-medium">Every Budget</Highlight></>
+              <>Creative Solution For 
+              <Highlight className="text-slate-800 font-medium">Every Budget
+              </Highlight></>
             }
             subtitle="You are a startup looking to launch with impact or an established brand aiming to scale, our packages are designed to deliver creativity"
             className = ""
