@@ -32,7 +32,7 @@ export default function BlogSection() {
   const regularPosts = blogPosts.filter((post) => !post.featured);
 
   return (
-    <section className="">
+    <section className="Container">
       <div className="">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5 lg:gap-6">
           {/* Featured Post - Left Side */}

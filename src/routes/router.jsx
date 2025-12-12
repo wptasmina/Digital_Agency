@@ -14,9 +14,8 @@ import ContactUs from "../components/shear/ContactUs";
 import ServiceDetails from "../app/page/Services-Page/service-details/ServiceDetails";
 import ErrorPage from "../app/page/ErrorPage/ErrorPage";
 import Pricing from "../components/common/PricingSection";
-import PricingPage from "../app/page/Pricing/pricing";
-import BlogPage from "../app/page/Blog/blogPage";
 import Pages from "../app/page/pages/pages";
+import Blog from "../app/page/pages/Blogs/blog";
 
 
 export const router = createBrowserRouter([
@@ -55,7 +54,7 @@ export const router = createBrowserRouter([
         },
         {
           path: "/blog",
-          element: <BlogPage />,
+          element: <Blog />,
         },
         {
           path: "/pricing",

@@ -1,13 +1,12 @@
 import pricingBgImage from '../../assets/digitalAgency/image/our-service/pricingBg.jpg';
 import NotSureWhereStart from '../../app/page/digitalAgency/NotSureWhereStart';
-
-import TopBannerSection from '../shear/TopBanner';
 import PricingCardList from './PricingCardList';
 import Highlight from '../shear/Highlight';
 import Faq from '../../app/page/aboutus/Faq';
 import ContactUsPage from '../../app/page/contact-us/contactUsPage';
 import Testimonial from '../shear/Testimonial';
 import PageHeader from '../shear/PageHeader/PageHeader';
+import TopBanner from '../shear/TopBanner';
 
 
 const plans = [
@@ -109,7 +108,7 @@ export default function PricingSection() {
          />
 
           {/* PRICING  */}
-          <TopBannerSection
+          <TopBanner
             badge = "YOUR GROW, YOUR PLAN"
             title={
               <>Creative Solution For 
