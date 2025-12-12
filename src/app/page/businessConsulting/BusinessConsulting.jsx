@@ -11,7 +11,7 @@ import OurLatestNewsBlog from '../digitalAgency/OurLatestNewsBlog'
 import Testimonial from '../../../components/shear/Testimonial'
 import OurTeam from '../../../components/businessConsulting/OurTeam'
 import MarqueeBanner from '../digitalAgency/MarqueeBanner'
-import AboutAtri from '../../../components/businessConsulting/HeroBanner/AboutAtri'
+import AboutAtri from '../../../components/businessConsulting/AboutAtri'
 import ContactUsPage from '../contact-us/contactUsPage'
 import OurExpertise from '../../../components/businessConsulting/Expertise-Section/OurExpertise'
 import DreamersAndDoers from './../../../components/shear/DreamersAndDoers';

@@ -16,6 +16,7 @@ import ErrorPage from "../app/page/ErrorPage/ErrorPage";
 import Pricing from "../components/common/PricingSection";
 import PricingPage from "../app/page/Pricing/pricing";
 import BlogPage from "../app/page/Blog/blogPage";
+import Pages from "../app/page/pages/pages";
 
 
 export const router = createBrowserRouter([
@@ -43,6 +44,10 @@ export const router = createBrowserRouter([
         {
           path: "/service-details",
           element: <ServiceDetails />,
+        },
+        {
+          path: "/pages",
+          element: <Pages />,
         },
         {
           path: "/about-us",

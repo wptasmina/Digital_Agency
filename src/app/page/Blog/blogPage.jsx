@@ -14,7 +14,10 @@ export default function BlogPage() {
         <PageHeader
             title="Our News & Blog"
             subtitle="We believe great marketing starts with understanding people. Our agency focuses on creating meaningful."
-            currentPage={["Pages", "Blog"]}
+              currentPage={[
+              { name: "Pages", path: "/pages" },
+              { name: "Blog", path: "/blog" }
+              ]}
             image={blogBgImage}
             />
 

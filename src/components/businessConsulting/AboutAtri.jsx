@@ -1,10 +1,10 @@
 
 import { Phone } from "lucide-react"; // icon library (optional)
-import handsomeBusinessm from '../../../assets/businessConsulting/handsome-businessman.png'; 
+import handsomeBusinessm from '../../assets/businessConsulting/handsome-businessman.png'; 
+import heroIcon from '../../assets/icons/heroIcons.png'
 
-import Button from "../../Button";
-import heroIcon from '../../../assets/icons/heroIcons.png'
-import TopHeading from "../../shear/TopHeading";
+import Button from "../Button";
+import TopHeading from './../shear/TopHeading';
 
 
 export default function AboutAtri() {
