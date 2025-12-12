@@ -55,7 +55,7 @@ export default function Testimonial({ bgColor }) {
     >
       {/* Decorative lime element at top center */}
       <div className="flex justify-center mb-6 sm:mb-8 lg:mb-[35px]">
-        <img src={T1} alt="Customer Review " />
+        <img src={T1} alt="Customer Review" />
       </div>
 
       <div className="max-w-4xl mx-auto relative px-4 sm:px-6">

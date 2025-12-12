@@ -13,7 +13,9 @@ import OurServicePage from "../app/page/Services-Page/ourServicePage";
 import ContactUs from "../components/shear/ContactUs";
 import ServiceDetails from "../app/page/Services-Page/service-details/ServiceDetails";
 import ErrorPage from "../app/page/ErrorPage/ErrorPage";
-import Pricing from "../app/page/Pricing/pricing";
+import Pricing from "../components/common/pricing";
+import PricingPage from "../app/page/Pricing/pricingPage";
+import BlogPage from "../app/page/Blog/blogPage";
 
 
 export const router = createBrowserRouter([
@@ -47,8 +49,12 @@ export const router = createBrowserRouter([
           element: <AboutUs />,
         },
         {
+          path: "/blog",
+          element: <BlogPage />,
+        },
+        {
           path: "/pricing",
-          element: <Pricing />,
+          element: <PricingPage />,
         },
         {
           path: "/contact-us",

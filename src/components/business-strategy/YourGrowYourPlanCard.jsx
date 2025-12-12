@@ -11,7 +11,7 @@ export default function YourGrowYourPlanCard({ plan }) {
         {planName}
       </p>
       <h2 className="text-3xl sm:text-4xl lg:text-[2.5rem] pb-6 sm:pb-8 lg:pb-10 mb-6 sm:mb-7 lg:mb-8 border-b border-slate-200  font-medium">
-        {pricePerMonth}{" "}
+        {pricePerMonth}
         <span className="text-base sm:text-lg lg:text-xl">/ {period}</span>
       </h2>
 
