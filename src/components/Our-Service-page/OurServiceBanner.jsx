@@ -8,7 +8,9 @@ export default function OurServiceBanner() {
     <PageHeader
       title="Our Services"
       subtitle="We're a full-service digital marketing agency helping brands adapt, evolve, and thrive."
-      currentPage="Services"
+      currentPage={[
+                { name: "Services", path: "/services" }
+            ]}
       image={serviceBgImage}
     />
   )

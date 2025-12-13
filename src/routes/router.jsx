@@ -8,14 +8,15 @@ import App from "../App";
 import HomePage from "../app/page/digitalAgency/HomePage";
 import BusinessConsulting from "../app/page/businessConsulting/BusinessConsulting";
 import MarketingAgency from "../app/page/marketingAgency/MarketingAgency";
-import AboutUs from "../app/page/aboutus/AboutUsPage";
-import OurServicePage from "../app/page/Services-Page/ourServicePage";
+// import AboutUs from "../app/page/aboutus/AboutUsPage";
 import ContactUs from "../components/shear/ContactUs";
-import ServiceDetails from "../app/page/Services-Page/service-details/ServiceDetails";
+import ServiceDetails from "../app/page/services/ServiceDetails";
 import ErrorPage from "../app/page/ErrorPage/ErrorPage";
 import Pricing from "../components/common/PricingSection";
 import Pages from "../app/page/pages/pages";
 import Blog from "../app/page/pages/Blogs/blog";
+import AllAboutUs from "../app/page/aboutUs/allAboutUs";
+import Services from "../app/page/services/services";
 
 
 export const router = createBrowserRouter([
@@ -38,8 +39,12 @@ export const router = createBrowserRouter([
         },
         {
           path: "/services",
-          element: <OurServicePage />,
+          element: <Services />,
         },
+        // {
+        //   path: "/services",
+        //   element: <OurServicePage />,
+        // },
         {
           path: "/service-details",
           element: <ServiceDetails />,
@@ -50,7 +55,7 @@ export const router = createBrowserRouter([
         },
         {
           path: "/about-us",
-          element: <AboutUs />,
+          element: <AllAboutUs />,
         },
         {
           path: "/blog",

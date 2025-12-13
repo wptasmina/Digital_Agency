@@ -7,7 +7,6 @@ export default function PricingCardList({ plans }) {
         <PricingCard
           key={plan.planName}
           planName={plan.planName}
-        //   price={plan.price}
           pricePerMonth={plan.pricePerMonth}
           period={plan.period}
           features={plan.features}

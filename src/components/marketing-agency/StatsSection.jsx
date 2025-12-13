@@ -1,6 +1,7 @@
 import CountUp from "react-countup";
 import { useEffect, useRef, useState } from "react";
 import { HiArrowUpRight } from "react-icons/hi2";
+import Button from "../Button";
 
 
 export default function StatsSection() {
@@ -52,9 +53,8 @@ export default function StatsSection() {
             that drive engagement, growth, and long-term success.
           </p>
 
-          <button className="flex items-center gap-2 text-white underline hover:text-[#C4EE18] duration-200">
-            Explore More <HiArrowUpRight />
-          </button>
+          <Button title={<> Explore More</>}/>
+           
         </div>
 
       </div>

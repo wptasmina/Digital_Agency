@@ -1,18 +1,18 @@
+import aboutImage from "../../../assets/marketing/aboutUs.png"
+import FeaturesList from "../../../components/businessConsulting/Why-ChooseUs/featuresList";
+import heroIcon from '../../../assets/icons/heroIcons.png'
+import InfoPoint from "../../../components/shear/InfoPoint";
 
-import ButtonGray from '../shear/ButtonGray'
-import Button from '../Button'
-// import FeatureBgImg from "../../assets/marketing/aboutUs.png"
-import FeaturesList from '../businessConsulting/Why-ChooseUs/featuresList';
-
-export default function MarketAboutUs({image}) {
+export default function AboutOurAgency() {
   return (
-     <section className="py-16 Container bg-[#fefff9]">
+    <>
+ <section className="py-16 Container bg-[#fefff9]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center ">
           
           {/* Left Image */}
         <div>
              <img 
-              src={image} 
+              src={aboutImage} 
               alt="Feature marketing work" 
               className="w-full"
             />
@@ -20,10 +20,10 @@ export default function MarketAboutUs({image}) {
                             
           {/* Right Content *//* TOP HEADING */}
         <div className="flex flex-col space-y-4">
-            <ButtonGray title='our services' />
 
              {/* About Us" */}
             <FeaturesList 
+                badge="About Us"
                 title={
                     <> Crafting Meaningful Connections <br className="hidden md:block"/> Through Creativity </>
                   }    
@@ -31,18 +31,22 @@ export default function MarketAboutUs({image}) {
 
                 subItem={[
                     "Fast documentation and a quick and easy service",
+                    "Fast documentation and a quick and easy service",
+                    "Customer service that is second-to-none",
                     "Customer service that is second-to-none"
                 ]}
             />
 
-
-            <div className="flex mt-8">
-              <Button title="Explore More" className="" />
-          </div>
+            <InfoPoint
+              icon={heroIcon}
+              title={<>We&apos;re Global <br className="hidden md:block" /> Brand  Agency </>}
+              description={<>We help businesses grow <br className="hidden md:block" />
+                            confidently in the digital world</>}
+            />
 
         </div>
     </div>
     </section>
-
-  )
+    </>
+  );
 }

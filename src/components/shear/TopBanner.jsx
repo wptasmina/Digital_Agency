@@ -12,7 +12,7 @@ export default function TopBanner({
       {/* Grid background */}
       {/* <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10 pointer-events-none"></div> */}
 
-      <div className="max-w-6xl mx-auto relative z-10">
+    <div className="max-w-6xl mx-auto relative z-10">
         
         {/* Badge */}
     <div className="grid md:grid-cols-2 items-end gap-4">
@@ -25,21 +25,21 @@ export default function TopBanner({
         </div>
 
         {/* Title */}
-        <h1 className="text-4xl md:text-4xl font-normal text-slate-700 leading-snug">
+        <h1 className="text-xl md:text-4xl font-normal text-[#5f758c] leading-snug">
           {title}
         </h1>
      </div>
 
         {/* Subtitle */}
         {subtitle && (
-          <p className=" text-gray-500">
+          <p className=" text-[#5f758c]">
             {subtitle}
           </p>
         )}
 
     </div>
 
-      </div>
+    </div>
 
     </section>
   );

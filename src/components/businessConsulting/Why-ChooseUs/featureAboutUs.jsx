@@ -1,6 +1,6 @@
 
 import FeatureBgImg from "../../../assets/businessConsulting/feature-bg.png";
-import FeaturesList from "./features_List";
+import FeaturesList from "./featuresList";
 
 export default function FeatureAboutUs() {
   return (
@@ -28,8 +28,6 @@ export default function FeatureAboutUs() {
               "Highly trusted service globally"
             ]}
           />
-
-
       </div>
     </section>
   )

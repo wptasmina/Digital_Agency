@@ -2,11 +2,11 @@ import pricingBgImage from '../../assets/digitalAgency/image/our-service/pricing
 import NotSureWhereStart from '../../app/page/digitalAgency/NotSureWhereStart';
 import PricingCardList from './PricingCardList';
 import Highlight from '../shear/Highlight';
-import Faq from '../../app/page/aboutus/Faq';
 import ContactUsPage from '../../app/page/contact-us/contactUsPage';
 import Testimonial from '../shear/Testimonial';
 import PageHeader from '../shear/PageHeader/PageHeader';
 import TopBanner from '../shear/TopBanner';
+import Faq from '../../app/page/aboutUs/Faq';
 
 
 const plans = [
@@ -97,13 +97,15 @@ const plans = [
 ];
 
 
-export default function PricingSection() {
+export default function AllPricing() {
   return (
     <div>
       <PageHeader
            title="Our Pricing Plan"
            subtitle="We're a full-service digital marketing agency helping brands adapt, evolve, and thrive."
-           currentPage="Pricing"
+            currentPage={[
+                { name: "Pricing", path: "/pricing" }
+            ]}
            image={pricingBgImage}
          />
 
@@ -112,7 +114,7 @@ export default function PricingSection() {
             badge = "YOUR GROW, YOUR PLAN"
             title={
               <>Creative Solution For 
-              <Highlight className="text-slate-800 font-medium">Every Budget
+              <Highlight className="text-[#19324D] font-medium"> <br className='hidden lg:block'/>Every Budget
               </Highlight></>
             }
             subtitle="You are a startup looking to launch with impact or an established brand aiming to scale, our packages are designed to deliver creativity"
@@ -127,7 +129,8 @@ export default function PricingSection() {
           {/* It'sTime To Work  */}
           <NotSureWhereStart />
 
-          <Faq />
+            
+          <Faq reverseLayout={true}/>
           <Testimonial bgColor="bg-white" />
           <ContactUsPage /> 
     </div>

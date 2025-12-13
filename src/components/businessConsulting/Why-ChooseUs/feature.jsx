@@ -1,6 +1,8 @@
 import Button from "../../Button";
 import TopHeading from "../../shear/TopHeading";
-import Feature_Buttons from "./feature_buttons";
+import FeatureAboutUs from "./featureAboutUs";
+import FeatureButtons from "./featureButtons";
+
 
 
 export default function FeatureSection() {
@@ -21,9 +23,17 @@ export default function FeatureSection() {
         </div>
       </div>
       </div>
+      
 
-      <Feature_Buttons />
-    
+        {/* Feature Button & Image  */}
+    <div className="border border-[#e3e3e3] border-dashed">
+      {/* Feature Tab Button  */}
+      <FeatureButtons />
+      {/* Feature AboutUs */}
+        <FeatureAboutUs />
+    </div>
+
+
     </section>
   )
 }

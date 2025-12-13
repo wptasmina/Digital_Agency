@@ -46,7 +46,7 @@ export default function BusinessConsulting() {
       <NotSureWhereStart />
       <Testimonial /> 
       <YourGrowYourPlan />     
-      <OurLatestNewsBlog />
+      {/* <OurLatestNewsBlog /> */}
       <OurTeam />
       <MarqueeBanner />
       <ContactUsPage /> 

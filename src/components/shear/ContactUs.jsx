@@ -18,7 +18,9 @@ export default function ContactUs() {
           <PageHeader
             title="Contact Us"
             subtitle="We believe great marketing starts with understanding people. Our agency focuses on creating meaningful."
-            currentPage="Contact Us"
+             currentPage={[
+            { name: "Contact Us", path: "/contact-us" },
+            ]}
             image={contactImage}
           />
           <ContactUsPage />

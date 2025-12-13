@@ -9,7 +9,7 @@ import TopHeading from './../shear/TopHeading';
 
 export default function AboutAtri() {
   return (
-    <section className="w-full bg-[#f8f9fa] py-16">
+    <section className="w-full bg-[#f8f9fa]">
       <div className="Container max-w-6xl mx-auto px-6 grid md:grid-cols-2 items-center gap-10">
 
         {/* LEFT IMAGE AREA */}

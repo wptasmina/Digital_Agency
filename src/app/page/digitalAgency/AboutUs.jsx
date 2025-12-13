@@ -2,17 +2,17 @@ import A1 from "../../../assets/digitalAgency/about/A1.png";
 import Abater1 from "../../../assets/digitalAgency/about/Abater1.png";
 import Abater2 from "../../../assets/digitalAgency/about/Abater2.png";
 import Abater3 from "../../../assets/digitalAgency/about/Abater3.png";
-import FeaturesList from "../../../components/businessConsulting/Why-ChooseUs/features_List";
+import FeaturesList from "../../../components/businessConsulting/Why-ChooseUs/featuresList";
 import heroIcon from '../../../assets/icons/heroIcons.png'
+import Highlight from "../../../components/shear/Highlight";
+import InfoPoint from "../../../components/shear/InfoPoint";
 
 const avatars = [Abater1, Abater2, Abater3];
 
 export default function AboutUs() {
   return (
-    <div
-      className="Container bg-white"
-    >
-      <div className="flex flex-col lg:flex-row justify-between items-center  gap-8 lg:gap-11">
+    <div className="Container bg-white">
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-11">
         <div className="w-full lg:w-auto order-2 lg:order-1">
           <div className="flex items-center gap-4 sm:gap-6 lg:gap-[30px] mb-6 lg:mb-8">
             <span className="text-5xl sm:text-6xl lg:text-[76px] font-bold">
@@ -59,14 +59,13 @@ export default function AboutUs() {
         <div className="w-full lg:w-[504px] order-3">
             {/* Right Content *//* TOP HEADING */}
           <div className="flex flex-col space-y-4">
-          <div className="flex gap-2 items-center">
-            <span className="w-3 h-3 bg-[#C4EE18] rounded-full"></span>
-            <h3>About Us</h3>
-          </div>
+         
                 {/* About Us Text" */}
               <FeaturesList 
+                badge="About Us"
                 title={
-                  <> Our Story Begins with <br className="hidden md:block"/> Vision, And Grows Through Collaboration</>
+                  <> Our Story Begins <Highlight className="text-[#19324D] font-semibold "> with Vision, And <br className="hidden md:block"/> Grows Through Collaboration </Highlight>
+                  </>
                   }    
                   subtitle='We believe great marketing starts with understanding people. Our agency focuses on creating meaningful connections between brands and audiences through creativity, design, and authentic storytelling. Every idea we bring to life is driven by passion, purpose, and a desire to make brands truly unforgettable.'                          
           
@@ -77,7 +76,15 @@ export default function AboutUs() {
                           "Customer service that is second-to-none"
                           ]}
                 />
-                      {/* Two small line points */}
+
+
+            <InfoPoint
+              icon={heroIcon}
+              title={<>We&apos;re Global <br className="hidden md:block" /> Brand  Agency </>}
+              description={<>We help businesses grow <br className="hidden md:block" />
+                            confidently in the digital world</>}
+            />
+                      {/* Two small line points
                       <div className="flex md:flex-row flex-col md:gap-6 gap-4">
                         <div className="flex items-center gap-3">
                           <span className="bg-[#C4EE18] p-2 rounded-full">
@@ -87,13 +94,14 @@ export default function AboutUs() {
                               className=""
                             />
                           </span>
-                          <p className="font-medium text-base text-[#19324D]">We're Global Brand Agency</p>
+                        <p className="font-medium text-base text-[#19324D]">
+                          {iconText}
+                        </p>
                         </div>
                         <p className="text-[#5F758C] text-base font-normal">
-                          We help businesses grow confidently in the digital world
+                         {}
                         </p>
-                        
-                      </div>
+                      </div> */}
             </div>                
         </div>
 

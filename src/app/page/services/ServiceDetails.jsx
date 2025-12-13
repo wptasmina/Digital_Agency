@@ -1,6 +1,6 @@
 
-import ContactUsPage from "../../contact-us/contactUsPage";
-import NotSureWhereStart from "../../digitalAgency/NotSureWhereStart";
+import ContactUsPage from "../contact-us/contactUsPage";
+import NotSureWhereStart from "../digitalAgency/NotSureWhereStart";
 
 
 

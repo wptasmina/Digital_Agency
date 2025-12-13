@@ -16,7 +16,7 @@ export default function PageHeader({ title, subtitle, currentPage = [], image })
 
           {/* Left - Text */}
           <div className="space-y-4">
-            <h2 className="text-sm md:text-5xl">{title}</h2>
+            <h2 className="text-sm md:text-[40px] text-[#19324D] font-medium">{title}</h2>
             <p className="text-[#5F758C] text-base leading-relaxed tracking-[2%]">
               {subtitle}
             </p>

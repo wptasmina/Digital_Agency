@@ -30,11 +30,7 @@ export default function TopHeading({ title, heading, highlight, subtitle, classN
         </div>
       {/* </div> */}
 
-      
-        {/* Button  */}
-         {/* <div className="flex justify-between items-end">  
-            <Button title="Read More" />
-          </div> */}
+    
     </>
   )
 }

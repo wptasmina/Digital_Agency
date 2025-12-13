@@ -1,11 +1,12 @@
-import PricingSection from "../../../components/common/PricingSection";
+import AllPricing from "../../../components/common/PricingSection";
+
 
 
 
 export default function Pricin() {
   return (
     <>
-      <PricingSection />
+      <AllPricing />
     </>
   )
 }

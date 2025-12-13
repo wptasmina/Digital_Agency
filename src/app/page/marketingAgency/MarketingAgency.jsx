@@ -6,14 +6,15 @@ import MarketAboutUs from "../../../components/marketing-agency/marketAboutUs";
 import OurMarketServices from "../../../components/marketing-agency/ourMarketServices";
 import StatsSection from "../../../components/marketing-agency/StatsSection";
 import ContactUsPage from "../contact-us/contactUsPage";
-
+import aboutImage from '../../../assets/marketing/aboutUs.png';
 
 export default function MarketingAgency() {
   return (
     <>
       <HeroBanner/>
       <OurMarketServices />
-      <MarketAboutUs />
+      {/* <MarketAboutUs /> */}
+      <MarketAboutUs image={aboutImage} />
       <StatsSection />
       <LatestWorkSlider />
       <ContactUsPage /> 
