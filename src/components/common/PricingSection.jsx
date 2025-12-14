@@ -99,7 +99,7 @@ const plans = [
 
 export default function AllPricing() {
   return (
-    <div>
+    <>
       <PageHeader
            title="Our Pricing Plan"
            subtitle="We're a full-service digital marketing agency helping brands adapt, evolve, and thrive."
@@ -109,7 +109,7 @@ export default function AllPricing() {
            image={pricingBgImage}
          />
 
-          {/* PRICING  */}
+          {/* PRICING Top Banner */}
           <TopBanner
             badge = "YOUR GROW, YOUR PLAN"
             title={
@@ -133,6 +133,6 @@ export default function AllPricing() {
           <Faq reverseLayout={true}/>
           <Testimonial bgColor="bg-white" />
           <ContactUsPage /> 
-    </div>
+    </>
   )
 }

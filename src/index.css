@@ -26,6 +26,11 @@
     @apply bg-[#C4EE18] text-[#19324D] px-4 py-2 my-1 mr-1 font-semibold rounded-tl-[8px] rounded-tr-[2px] rounded-br-[2px] rounded-bl-[2px];
 } 
 
+/* TopBanner */
+.badge-text {
+  @apply text-[13px] font-medium leading-[16px] tracking-[0.05em] text-[#19324D] uppercase;
+}
+
 /*contact section label */
 .contact-input {
     @apply w-full mt-2 px-4 py-3 border border-gray-300 rounded-md outline-none focus:border-lime-400;

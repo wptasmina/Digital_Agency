@@ -3,8 +3,6 @@ import { createBrowserRouter } from "react-router-dom";
 
 import App from "../App";
 
-// import ErrorPage from "../Pages/ErrorPage";
-
 import HomePage from "../app/page/digitalAgency/HomePage";
 import BusinessConsulting from "../app/page/businessConsulting/BusinessConsulting";
 import MarketingAgency from "../app/page/marketingAgency/MarketingAgency";
@@ -17,6 +15,10 @@ import Pages from "../app/page/pages/pages";
 import Blog from "../app/page/pages/Blogs/blog";
 import AllAboutUs from "../app/page/aboutUs/allAboutUs";
 import Services from "../app/page/services/services";
+import OurProject from "../components/AllPages/projects/ourProject";
+import ProjectDetails from "../components/AllPages/projects/ProjectDetails";
+import FAQPage from "../app/page/pages/FaqPage";
+import TestimonialPages from "../app/page/pages/TestimonialPages";
 
 
 export const router = createBrowserRouter([
@@ -53,6 +55,23 @@ export const router = createBrowserRouter([
           path: "/pages",
           element: <Pages />,
         },
+        {
+          path: "/our-project",
+          element: <OurProject />,
+        },
+        {
+          path: "/project-details",
+          element: <ProjectDetails />,
+        },
+        {
+          path: "/faq",
+          element: <FAQPage />,
+        },
+        {
+          path: "/testimonial",
+          element: <TestimonialPages />,
+        },
+
         {
           path: "/about-us",
           element: <AllAboutUs />,

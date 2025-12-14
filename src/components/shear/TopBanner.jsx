@@ -19,7 +19,7 @@ export default function TopBanner({
      <div className="">
         <div className="flex items-center gap-2 mb-4">
           <span className="w-3 h-3 rounded-full bg-lime-500"></span>
-          <p className="text-sm font-medium tracking-wide text-gray-600">
+          <p className="badge-text">
             {badge}
           </p>
         </div>

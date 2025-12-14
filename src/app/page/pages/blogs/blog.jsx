@@ -1,4 +1,5 @@
-import OurNewsBlog from "../../../../components/blog/OurNewsBlog";
+// import OurNewsBlog from "../../../../components/blog/OurNewsBlog";
+import OurNewsBlog from "../../../../components/AllPages/blog/OurNewsBlog";
 import BlogSection from "../../../../components/BlogSection";
 import Testimonial from "../../../../components/shear/Testimonial";
 import ContactUsPage from "../../contact-us/contactUsPage";
