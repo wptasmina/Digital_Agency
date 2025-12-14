@@ -46,68 +46,66 @@ export default function Faq({ reverseLayout = false }) {
   };
 
   return (
-    <section className="Container py-16">
-      <div className="px-20">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
-          {/* Left Column */}
-          <div
-            className={`flex flex-col space-y-4 ${
-              reverseLayout ? "lg:col-start-2" : "lg:col-start-1"
-            }`}
-          >
-            <FeaturesList
-              badge="Frequently Ask Question"
-              title={
-                <>
-                  Answers to Common
-                  <Highlight className="text-[#19324d] font-semibold">
-                    Questions About Our Services
-                  </Highlight>
-                </>
-              }
-              subtitle="Have questions about how we work, our process, or what to expect? We’ve got you covered. This section answers the most common questions our clients ask — from project timelines and pricing to strategy and results — so you can feel confident before we begin your journey toward growth."
-              subItem={[]}
-            />
-            <div className="flex">
-              <Button title="Read More" />
-            </div>
-          </div>
-
-          {/* Right Column - FAQ Accordion */}
-          <div
-            className={`flex flex-col gap-4 ${
-              reverseLayout ? "lg:col-start-1" : "lg:col-start-2"
-            }`}
-          >
-            {faqs.map((faq, index) => (
-              <div
-                key={index}
-                className="border border-slate-200 overflow-hidden transition-all"
-              >
-                <button
-                  onClick={() => toggleFaq(index)}
-                  className="w-full flex items-center justify-between py-10 px-[30px] text-left transition-colors cursor-pointer"
-                >
-                  <span className="font-medium text-slate-800">
-                    {faq.question}
-                  </span>
-                  <img src={openIndex === index ? A2 : A1} alt="Arrow" />
-                </button>
-                <div
-                  className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                    openIndex === index ? "max-h-40" : "max-h-0"
-                  }`}
-                >
-                  <p className="px-[30px] pb-10 text-slate-500 leading-relaxed">
-                    {faq.answer}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
+<section className="Container py-16">
+  <div className="max-w-6xl mx-auto">
+    <div
+      className={`flex flex-col lg:flex-row gap-12 lg:gap-20 ${
+        reverseLayout ? "lg:flex-row-reverse" : ""
+      }`}
+    >
+      {/* Left Column */}
+      <div className="flex flex-col space-y-4 lg:w-1/2">
+        <FeaturesList
+          badge="Frequently Ask Question"
+          title={
+            <>
+              Answers to Common{" "}
+              <Highlight className="text-[#19324d] font-semibold">
+                Questions About Our Services
+              </Highlight>
+            </>
+          }
+          subtitle="Have questions about how we work, our process, or what to expect? We've got you covered. This section answers the most common questions our clients ask — from project timelines and pricing to strategy and results — so you can feel confident before we begin your journey toward growth."
+          subItem={[]}
+        />
+        <div className="flex">
+          <Button title="Read More" />
         </div>
       </div>
-    </section>
+
+      {/* Right Column - FAQ Accordion */}
+      <div className="flex flex-col gap-4 lg:w-1/2">
+        {faqs.map((faq, index) => (
+          <div
+            key={index}
+            className="border border-slate-200 overflow-hidden transition-all"
+          >
+            <button
+              onClick={() => toggleFaq(index)}
+              className="w-full flex items-center justify-between py-10 px-[30px] text-left cursor-pointer"
+            >
+              <span className="font-medium text-slate-800">
+                {faq.question}
+              </span>
+              <img src={openIndex === index ? A2 : A1} alt="Arrow" />
+            </button>
+
+            <div
+              className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                openIndex === index ? "max-h-40" : "max-h-0"
+              }`}
+            >
+              <p className="px-[30px] pb-10 text-slate-500 leading-relaxed">
+                {faq.answer}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
   );
 }
 
