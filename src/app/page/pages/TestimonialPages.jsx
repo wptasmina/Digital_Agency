@@ -3,6 +3,8 @@ import Testimonial from "../../../components/shear/Testimonial";
 import testimonialImage from '../../../assets/pages/testimonial/testimonialBg.jpg';
 import TopBanner from "../../../components/shear/TopBanner";
 import Highlight from "../../../components/shear/Highlight";
+import OurTeam from "../../../components/businessConsulting/OurTeam";
+import OurTeamMember from "../../../components/AllPages/ourTeamMember";
 
 export default function TestimonialPages() {
   return (
@@ -29,6 +31,8 @@ export default function TestimonialPages() {
           subtitle="You are a startup looking to launch with impact or an established brand aiming to scale, our packages are designed to deliver creativity"
           className = ""
         />
+
+      <OurTeamMember/>
       <Testimonial />
     </div>
   )
