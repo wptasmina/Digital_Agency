@@ -1,10 +1,8 @@
 import PageHeader from "../../../components/shear/PageHeader/PageHeader";
-import Testimonial from "../../../components/shear/Testimonial";
 import testimonialImage from '../../../assets/pages/testimonial/testimonialBg.jpg';
-import TopBanner from "../../../components/shear/TopBanner";
-import Highlight from "../../../components/shear/Highlight";
-import OurTeam from "../../../components/businessConsulting/OurTeam";
-import OurTeamMember from "../../../components/AllPages/ourTeamMember";
+import OurTeamMember from "../../../components/AllPages/Testimonials/ourTeamMember";
+import ContactUsPage from "../contact-us/contactUsPage";
+
 
 export default function TestimonialPages() {
   return (
@@ -19,7 +17,7 @@ export default function TestimonialPages() {
           image={testimonialImage}
         />
 
-        {/* Testimonial Top Banner  */}
+        {/* Testimonial Top Banner 
         <TopBanner
           badge = "our Team Member"
           title={
@@ -30,10 +28,14 @@ export default function TestimonialPages() {
           }
           subtitle="You are a startup looking to launch with impact or an established brand aiming to scale, our packages are designed to deliver creativity"
           className = ""
-        />
+        /> */}
 
-      <OurTeamMember/>
-      <Testimonial />
+
+      {/*  Our Team Member */}
+      <OurTeamMember />
+
+      <ContactUsPage /> 
+
     </div>
   )
 }
