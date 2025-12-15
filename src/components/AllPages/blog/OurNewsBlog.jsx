@@ -1,4 +1,4 @@
-import blogBgImage from '../../../assets/digitalAgency/image/our-service/blog-banner.jpg';
+import blogBgImage from '../../../assets/pages/blog/blogBg.jpeg';
 import PageHeader from '../../shear/PageHeader/PageHeader';
 
 

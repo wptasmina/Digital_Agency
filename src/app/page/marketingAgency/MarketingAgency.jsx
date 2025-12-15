@@ -6,7 +6,7 @@ import MarketAboutUs from "../../../components/marketing-agency/marketAboutUs";
 import OurMarketServices from "../../../components/marketing-agency/ourMarketServices";
 import StatsSection from "../../../components/marketing-agency/StatsSection";
 import ContactUsPage from "../contact-us/contactUsPage";
-import aboutImage from '../../../assets/marketing/aboutUs.png';
+import aboutImage from '../../../assets/about/aboutUs.jpg';
 
 export default function MarketingAgency() {
   return (

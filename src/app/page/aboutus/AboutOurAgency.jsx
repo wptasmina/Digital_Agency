@@ -1,4 +1,4 @@
-import aboutImage from "../../../assets/marketing/aboutUs.png"
+import aboutImage from "../../../assets/about/aboutUs.jpg"
 import FeaturesList from "../../../components/businessConsulting/Why-ChooseUs/featuresList";
 import heroIcon from '../../../assets/icons/heroIcons.png'
 import InfoPoint from "../../../components/shear/InfoPoint";

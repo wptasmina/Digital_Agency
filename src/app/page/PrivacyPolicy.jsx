@@ -1,6 +1,6 @@
 import PageHeader from "../../components/shear/PageHeader/PageHeader";
 import TermsCondition from "../../components/shear/TermsConditions/TermsCondition";
-import privacyBgImage from "../../assets/privacyPolicy/privacyBg.png"
+import privacyBgImage from "../../assets/privacyPolicy/privacyBg.jpeg"
 
 export default function PrivacyPolicy() {
   return (

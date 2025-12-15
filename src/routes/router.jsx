@@ -22,6 +22,7 @@ import TestimonialPages from "../app/page/pages/TestimonialPages";
 import Team from "../app/page/pages/Team";
 import TermsConditionPage from "../app/page/pages/TermsConditionPage";
 import PrivacyPolicy from "../app/page/PrivacyPolicy";
+import BlogDetails from "../app/page/pages/blogs/blogDetails";
 
 
 
@@ -58,6 +59,10 @@ export const router = createBrowserRouter([
         {
           path: "/pages",
           element: <Pages />,
+        },
+        {
+          path: "/blog-details",
+          element: <BlogDetails />,
         },
         {
           path: "/our-project",
