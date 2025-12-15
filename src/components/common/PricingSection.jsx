@@ -102,7 +102,7 @@ export default function AllPricing() {
     <>
       <PageHeader
            title="Our Pricing Plan"
-           subtitle="We're a full-service digital marketing agency helping brands adapt, evolve, and thrive."
+           subtitle="We&apos;re a full-service digital marketing agency helping brands adapt, evolve, and thrive."
             currentPage={[
                 { name: "Pricing", path: "/pricing" }
             ]}

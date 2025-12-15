@@ -23,17 +23,17 @@ export default function TeamCard({ image, name, role }) {
 
         {/* INFO TEXT */}
         <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition duration-300 z-10">
-          <h4 className="text-white font-semibold text-sm">{name}</h4>
-          <p className="text-gray-300 text-xs">{role}</p>
+          <h4 className="text-white font-medium text-sm md:text-2xl">{name}</h4>
+          <p className="text-[#5F758C] text-xs md:text-base font-medium">{role}</p>
         </div>
       </div>
 
       {/* SOCIAL ICONS */}
-      <div className="absolute top-4 right-4 flex flex-col gap-3 bg-[#c4ee18] px-2 py-3 rounded-full opacity-0 group-hover:opacity-100 transition duration-300 z-20">
-        <FaFacebookF className="text-[#19324D] cursor-pointer" />
-        <FaTwitter className="text-[#19324D] cursor-pointer" />
-        <FaLinkedinIn className="text-[#19324D] cursor-pointer" />
-        <FaInstagram className="text-[#19324D] cursor-pointer" />
+      <div className="absolute top-4 right-4 flex flex-col gap-2.5 bg-[#c4ee18] px-4 py-5 rounded-full opacity-0 group-hover:opacity-100 transition duration-300 z-20">
+        <FaFacebookF className="text-[#272727] cursor-pointer" />
+        <FaTwitter className="text-[#272727] cursor-pointer" />
+        <FaLinkedinIn className="text-[#272727] cursor-pointer" />
+        <FaInstagram className="text-[#272727] cursor-pointer" />
       </div>
 
     </div>

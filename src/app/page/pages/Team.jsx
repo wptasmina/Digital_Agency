@@ -4,6 +4,8 @@ import TopBanner from "../../../components/shear/TopBanner";
 import ContactUsPage from "../contact-us/contactUsPage";
 import teamBg from '../../../assets/pages/team/teamBg.jpg';
 import TeamSection from "../../../components/AllPages/team/TeamSection";
+import Testimonial from "../../../components/shear/Testimonial";
+import NotSureWhereStart from "../digitalAgency/NotSureWhereStart";
 
 export default function Team() {
   return (
@@ -31,10 +33,10 @@ export default function Team() {
               className = ""
             />
     
-                <TeamSection />
-          {/*  Our Team Member */}
-          {/* <OurTeamMember /> */}
-    
+           <TeamSection />
+          {/* It'sTime To Work  */}
+          <NotSureWhereStart />
+          <Testimonial bgColor="bg-white" />
           <ContactUsPage /> 
     
         </div>

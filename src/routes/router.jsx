@@ -20,6 +20,9 @@ import ProjectDetails from "../components/AllPages/projects/ProjectDetails";
 import FAQPage from "../app/page/pages/FaqPage";
 import TestimonialPages from "../app/page/pages/TestimonialPages";
 import Team from "../app/page/pages/Team";
+import TermsConditionPage from "../app/page/pages/TermsConditionPage";
+import PrivacyPolicy from "../app/page/PrivacyPolicy";
+
 
 
 export const router = createBrowserRouter([
@@ -67,6 +70,14 @@ export const router = createBrowserRouter([
         {
           path: "/team",
           element: <Team />,
+        },
+        {
+          path: "/terms-&-condition",
+          element: <TermsConditionPage />,
+        },
+        {
+          path: "/privacy-policy",
+          element: <PrivacyPolicy />,
         },
         {
           path: "/faq",
