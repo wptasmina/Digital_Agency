@@ -19,6 +19,7 @@ import OurProject from "../components/AllPages/projects/ourProject";
 import ProjectDetails from "../components/AllPages/projects/ProjectDetails";
 import FAQPage from "../app/page/pages/FaqPage";
 import TestimonialPages from "../app/page/pages/TestimonialPages";
+import Team from "../app/page/pages/Team";
 
 
 export const router = createBrowserRouter([
@@ -62,6 +63,10 @@ export const router = createBrowserRouter([
         {
           path: "/project-details",
           element: <ProjectDetails />,
+        },
+        {
+          path: "/team",
+          element: <Team />,
         },
         {
           path: "/faq",

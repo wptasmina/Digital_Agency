@@ -16,7 +16,7 @@ const navItem = [
   { name: "About Us" },
   {
     name: "Pages",
-    submenu: ["Blog", "Blog Details", "Our Project", "Project Details", "FAQ", "Privacy Policy", "Testimonial"],
+    submenu: ["Blog", "Blog Details", "Our Project", "Project Details", "Team", "FAQ", "Privacy Policy", "Testimonial"],
   },
   { name: "Pricing" },
   { name: "Contact Us" },
