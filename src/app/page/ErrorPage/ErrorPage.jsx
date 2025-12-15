@@ -8,9 +8,9 @@ export default function ErrorPage() {
       <div className="absolute inset-0 bg-[radial-gradient(#d9d9d9_1px,transparent_1px)] bg-[size:20px_20px] opacity-40"></div>
 
       {/* Neon Circles */}
-      <div className="absolute top-10 left-1/2 -translate-x-1/2 w-40 h-40 bg-lime-300 rounded-full blur-3xl opacity-30"></div>
-      <div className="absolute bottom-20 left-1/3 w-16 h-16 border-2 border-lime-400 rounded-full opacity-40"></div>
-      <div className="absolute top-1/3 right-1/4 w-4 h-4 bg-lime-400 rounded-full"></div>
+      <div className="absolute top-10 left-1/2 -translate-x-1/2 w-40 h-40 bg-[#C4EE18] rounded-full blur-3xl opacity-30"></div>
+      <div className="absolute bottom-20 left-1/3 w-16 h-16 border-2 bg-[#C4EE18] rounded-full opacity-40"></div>
+      <div className="absolute top-1/3 right-1/4 w-4 h-4 bg-[#C4EE18] rounded-full"></div>
 
       {/* Main Content */}
       <div className="relative text-center px-6">
@@ -25,7 +25,7 @@ export default function ErrorPage() {
         {/* Button */}
         <a
           href="/"
-          className="inline-flex items-center gap-2 bg-lime-400 text-slate-900 font-medium py-2 px-5 rounded-md hover:bg-lime-500 transition"
+          className="inline-flex items-center gap-2 bg-[#C4EE18] text-slate-900 font-medium py-2 px-5 rounded-md hover:bg-lime-500 transition"
         >
           Back to Home →
         </a>
