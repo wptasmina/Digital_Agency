@@ -47,6 +47,20 @@ const testimonials = [
     name: "James Carter",
     role: "CEO at NovaTech",
   },
+  {
+    text: `Their team completely transformed our online presence. 
+    From design to development, everything was seamless and results-driven.
+    We finally have a website that truly reflects our brand identity.`,
+    name: "James Carter",
+    role: "CEO at NovaTech",
+  },
+  {
+    text: `Their team completely transformed our online presence. 
+    From design to development, everything was seamless and results-driven.
+    We finally have a website that truly reflects our brand identity.`,
+    name: "James Carter",
+    role: "CEO at NovaTech",
+  },
 ];
 
 export default function OurTeamMember() {
