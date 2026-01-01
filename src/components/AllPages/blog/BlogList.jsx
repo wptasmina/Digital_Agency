@@ -1,6 +1,11 @@
 import { Search } from "lucide-react";
 import { div } from "framer-motion/client";
 import blogImg from "../../../assets/pages/blog/blogDetails/img1.png"
+import newsImg1 from "../../../assets/pages/blog/blogDetails/news1.png"
+import newsImg2 from "../../../assets/pages/blog/blogDetails/news2.png"
+import newsImg3 from "../../../assets/pages/blog/blogDetails/news3.png"
+
+
 import { FaArrowRightLong } from "react-icons/fa6";
 import { useState } from "react";
 
@@ -12,12 +17,32 @@ const categories = [
   "Web Design",
   "IT Service",
 ];
+const recentNews = [
+  {
+    id: 1,
+    title: "From Creative Concepts to Strategy",
+    date: "Sep 25, 2026",
+    image: newsImg1,
+  },
+  {
+    id: 2,
+    title: "How Digital Marketing Drives Growth",
+    date: "Oct 02, 2026",
+    image: newsImg2,
+  },
+  {
+    id: 3,
+    title: "From Creative Concepts to Strategy, Explore What Drives Success.",
+    date: "Oct 10, 2026",
+    image: newsImg3,
+  },
+];
 
 export default function BlogList() {
     const [activeIndex, setActiveIndex] = useState(0); // first item active
 
   return (
-   <section className="Container mb-16 mt-6 bg-[#f5f5f5]">
+   <section className="Container bg-[#f5f5f5]">
      <div className="max-w-6xl mx-auto">
 
     <div className="grid lg:grid-cols-12 gap-12">
@@ -46,10 +71,10 @@ export default function BlogList() {
                     <li
                     key={i}
                     onClick={() => setActiveIndex(i)}
-                    className={`flex justify-between items-center cursor-pointer transition-colors
+                    className={`flex justify-between items-center cursor-pointer transition-colors border border-[#dadada] p-7 shadow
                         ${
                         activeIndex === i
-                            ? "text-[#19324D] font-semibold"
+                            ? "text-[#19324D] font-medium"
                             : "text-[#5F758C] hover:text-[#19324D]"
                         }`}
                     >
@@ -63,33 +88,43 @@ export default function BlogList() {
             </ul>
           </div>
 
-          {/* Recent News */}
-          <div className="border p-6">
-            <h3 className="text-lg font-semibold mb-4">Recent News</h3>
-            <ul className="space-y-4">
-              {[1, 2, 3].map((item) => (
-                <li key={item} className="flex gap-4">
-                  <div className="w-20 h-16 bg-slate-200 rounded" />
-                  <div>
-                    <p className="text-sm font-medium">
-                      From Creative Concepts to Strategy
-                    </p>
-                    <span className="text-xs text-slate-400">Sep 25, 2026</span>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </div>
+        {/* Recent News */}
+        <div className="bg-white py-[50px] px-[30px]">
+          <h3 className="text-lg lg:text-[40px] font-medium mb-4 text-[#19324D]">Recent News</h3>
+
+          <ul className="space-y-4">
+            {recentNews.map((news) => (
+              <li key={news.id} className="flex flex-col gap-2 border border-[#dadada]">
+                <div className="w-full h-auto overflow-hidden p-4">
+                  <img
+                    src={news.image}
+                    alt={news.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div className="p-4 space-y-2.5">
+                  <p className="text-[13px] text-[#5F758C] font-medium leading-snug">
+                    {news.date}
+                  </p>
+                  <span className="text-xs md:text-xl text-[#19324D]">
+                    {news.title}
+                  </span>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
 
           {/* Tags */}
-          <div className="border p-6">
-            <h3 className="text-lg font-semibold mb-4">Tags</h3>
-            <div className="flex flex-wrap gap-2">
+          <div className="bg-white py-[50px] px-[30px]">
+            <h3 className="text-lg lg:text-[40px] font-medium mb-4 text-[#19324D]">Tags</h3>
+            <div className="flex flex-wrap gap-2.5 ">
               {["Branding", "Information", "Marketing", "Solution", "Consulting", "Project", "Personal", "Creativity"].map(
                 (tag, i) => (
                   <span
                     key={i}
-                    className="px-3 py-1 text-sm border rounded hover:bg-lime-400 cursor-pointer"
+                    className="p-[15px] text-sm md:text-base font-normal bg-[#EAEAEA] text-[#19324D] rounded hover:bg-[#C4EE18] cursor-pointer"
                   >
                     {tag}
                   </span>
@@ -119,7 +154,7 @@ export default function BlogList() {
           </div>
 
           {/* Quote */}
-          <div className="border-l-4 border-lime-400 bg-slate-50 p-6">
+          <div className="border-l-4 border-[#C4EE18] bg-slate-50 p-6">
             <p className="italic text-slate-700">
               ATRI is built to empower learners, professionals, and knowledge seekers with curated collections and seamless access across devices.
             </p>
@@ -178,7 +213,7 @@ export default function BlogList() {
                 className="border p-3 md:col-span-2 h-32"
                 placeholder="Write Your Message"
               />
-              <button className="md:col-span-2 bg-lime-400 py-3 font-medium">
+              <button className="md:col-span-2 text-[#19324D] bg-[#C4EE18] py-4.5 cursor-pointer font-medium">
                 Send Message
               </button>
             </form>

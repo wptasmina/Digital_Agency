@@ -3,7 +3,8 @@ import { FaPhone } from "react-icons/fa6";
 import PageHeader from "./PageHeader/PageHeader";
 import { Outlet, useLocation } from "react-router-dom";
 import contactImage from '../../assets/digitalAgency/about/contact.jpeg';
-import ContactUsPage from "../../app/page/contact-us/contactUsPage";
+import ContactUsPage from "../../app/page/contact-us/ContactUsPage";
+
 
 
 export default function ContactUs() {
