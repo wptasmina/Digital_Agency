@@ -1,10 +1,10 @@
 /* 01_Digital Agency */
 
-import Banner from "./Banner";
+import HeroBanner from "../../../components/digitalAgency/HeroBanner";
 import Service from "./Service";
 import AboutUs from "./AboutUs";
 import OurService from "./OurService";
-import LatestWork from "./LatestWork";
+// import LatestWork from "./LatestWork";
 import DreamersAndDoers from "../../../components/shear/DreamersAndDoers";
 import Highlight from "../../../components/shear/Highlight";
 import NotSureWhereStart from "./NotSureWhereStart";
@@ -14,14 +14,14 @@ import MarqueeBanner from "./MarqueeBanner";
 import YourGrowYourPlan from "./YourGrowYourPlan";
 import Testimonial from "../../../components/shear/Testimonial";
 import OurLatestNewsBlog from "./OurLatestNewsBlog";
-import ContactUs from "../../../components/shear/ContactUs";
-import ContactUsPage from "../contact-us/contactUsPage";
+import ContactUsPage from "../contact-us/ContactUsPage";
+import LatestWork from './LatestWork';
 
 
 export default function HomePage() {
   return (
     <div>
-      <Banner />
+      <HeroBanner />
       <Service />
       {/* <DreamersAndDoers /> */}
        <DreamersAndDoers
